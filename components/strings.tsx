@@ -2,7 +2,7 @@
 
 import { useState, useRef, useEffect } from 'react';
 import Image from 'next/image';
-import BannerImage from '/public/images/Banner1.png'; // Replace with the path to your banner image
+import BannerImage from '/public/images/banner1.png'; // Replace with the path to your banner image
 
 export default function Stats() {
   const [tab, setTab] = useState<number>(1);
