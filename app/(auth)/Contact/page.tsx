@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Contact - Simple',
-  description: 'Page description',
+  title: 'Contact me',
+  description: 'This is where you can find my contact information',
 }
 
 

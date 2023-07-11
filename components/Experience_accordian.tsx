@@ -40,7 +40,7 @@ const members = [
       job_description: "Led innovative cybersecurity projects, leveraging diverse data sources to identify and address threats. Developed secure solutions, including a password manager and blockchain-based cryptocurrency. Recognized for outstanding performance and awarded multiple accolades among 25 competing teams.      ",
       job_type: "Part-time",
       location: "Davis, California",
-      duration: "January 2023 – Present",
+      duration: "October 2022 – Present",
       path: "javascript:void(0)"
   },
 
@@ -133,9 +133,9 @@ export default function Hero() {
             <p className="text-gray-300 mt-2 ">Constantly looking for opportunities, and love to explore new territories. Follow my LinkedIn below to stay updated on my career :)</p>
             <br></br>
 
-            <a href="#" className="rounded-md bg-white px-4 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">
+            <a href="https://www.linkedin.com/in/mohnish-gopi/" className="rounded-md bg-white px-4 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">
               Linkedin</a>
-            <a href="#" className="text-sm px-4 font-semibold leading-6 text-white">
+            <a href="https://docs.google.com/document/d/e/2PACX-1vTx1dG5lHXLgkZOmtqWeIrbph_rc2qQ3Y1T_-d5sWrXNmuKF6kkIOQaUOr5Uww87w/pub" className="text-sm px-4 font-semibold leading-6 text-white">
               View Resume <span aria-hidden="true"></span>
             </a>
           </div>

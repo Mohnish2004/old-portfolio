@@ -9,8 +9,8 @@ import Image from 'next/image';
         desc: " A web-based platform dedicated to providing UC Davis students with a time-saving and effortless experience in viewing and reviewing professors. Profficient eliminates the need for sifting through outdated websites and forums.",
         img: "/images/Project_Thumbnails/Cover.png",
         date: "Jan 4 2022",
-        href: "javascript:void(0)",
-        type: "Cyber Security"
+        href: "https://codelabdavis.medium.com/introduction-ddb70fec369a",
+        type: "Web Dev"
 
     },
       {
@@ -28,7 +28,7 @@ import Image from 'next/image';
           img: "/images/313shots_so.png",
           date: "Jan 4 2022",
           href: "javascript:void(0)",
-          type: "Web Dev"
+          type: "https://github.com/Mohnish2004/EnigmaCoin"
 
       },
       {
@@ -36,8 +36,8 @@ import Image from 'next/image';
         desc: "Going into this journey, I had a standard therapy regimen, based on looking at the research literature. After I saw the movie, I started to ask other people.",
         img: "/images/Project_Thumbnails/255shots_so.png",
         date: "Jan 4 2022",
-        href: "javascript:void(0)",
-        type: "Web Dev",
+        href: "https://github.com/Mohnish2004/EnigmaVault",
+        type: "Cyber-Security",
         
     },
 
@@ -47,7 +47,7 @@ import Image from 'next/image';
           desc: "The powerful gravity waves resulting from the impact of the planets' moons â€” four in total â€” were finally resolved in 2015 when gravitational.",
           img: "/images/Project_Thumbnails/93.png",
           date: "Jan 4 2022",
-          href: "javascript:void(0)",
+          href: "https://github.com/Mohnish2004/Expense-Manager",
           type: "Web Dev"
       },
 
@@ -56,7 +56,7 @@ import Image from 'next/image';
         desc: "Going into this journey, I had a standard therapy regimen, based on looking at the research literature. After I saw the movie, I started to ask other people.",
         img: "/images/Project_Thumbnails/851shots_so.png",
         date: "Jan 4 2022",
-        href: "javascript:void(0)",
+        href: "https://github.com/Mohnish2004/TasksApp",
         type: "Web Dev",
         
     },

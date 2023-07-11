@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Home - Simple',
-  description: 'Page description',
+  title: 'My Experience',
+  description: 'This is where you can see my past experiences',
 }
 
 import Testimonials from '@/components/testimonials'

@@ -64,9 +64,6 @@ export default function MobileMenu() {
           leaveTo="opacity-0"
         >
           <ul className="px-5 py-2">
-          <li>
-                <Link href="/" className="font-extrabold text-gray-600 hover:text-white  px-5 py-3 flex items-center transition duration-150 ease-in-out">Home</Link>
-              </li>
               <li>
                 <Link href="/signup" className="font-extrabold text-gray-600 hover:text-white px-5 py-3 flex items-center transition duration-150 ease-in-out">Projects</Link>
               </li>
