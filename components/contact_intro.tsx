@@ -5,6 +5,7 @@ import 'aos/dist/aos.css';
 import CircleText from '/Users/mohnish/Desktop/tailwind-landing-page-template/components/CircleText.js';
 import Link from 'next/link';
 
+
 export default function Hero() {
   useEffect(() => {
     AOS.init(); // Initialize AOS library
