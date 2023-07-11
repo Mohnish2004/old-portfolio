@@ -7,16 +7,23 @@ import Hero from '@/components/hero'
 import Features from '@/components/features'
 import FeaturesBlocks from '@/components/features-blocks'
 import Testimonials from '@/components/testimonials'
-import Newsletter from '@/components/newsletter'
+import Stats from '@/components/stats'
+import Strings from '@/components/strings'
+import Clients from '@/components/clients'
+import Strings2 from '@/components/strings2'
+
 
 export default function Home() {
   return (
     <>
       <Hero />
+      <Stats/>
+      <Strings />
       <Features />
+      <Strings2 />
       <FeaturesBlocks />
+      <Clients />
       <Testimonials />
-      <Newsletter />
     </>
   )
 }

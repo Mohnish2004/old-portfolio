@@ -1,15 +1,17 @@
 import './css/style.css'
 
-import { Inter } from 'next/font/google'
+import { Poppins } from 'next/font/google';
 
 import Header from '@/components/ui/header'
-import Banner from '@/components/banner'
 
-const inter = Inter({
+
+const poppins = Poppins({
   subsets: ['latin'],
-  variable: '--font-inter',
-  display: 'swap'
-})
+  variable: '--font-poppins',
+  display: 'swap',
+  weight: '400'
+});
+
 
 export const metadata = {
   title: 'Create Next App',
@@ -23,11 +25,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} font-inter antialiased bg-white text-gray-900 tracking-tight`}>
+      <body className={`${poppins.variable} font-poppins antialiased bg-black text-gray-900 tracking-tight`}>
         <div className="flex flex-col min-h-screen overflow-hidden supports-[overflow:clip]:overflow-clip">
           <Header />
           {children}
-          <Banner />
         </div>
       </body>
     </html>
