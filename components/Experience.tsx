@@ -1,7 +1,9 @@
 'use client'
 export default function Example() {
   return (
-    <><div className=" mx-auto px-5 py-1 lg:px-32 lg:py-1 ">
+    <>
+    
+    <div className=" mx-auto px-5 py-1 lg:px-32 lg:py-1 ">
       <div className="-m-1 flex flex-wrap md:-m-2">
         <div className="flex w-1/2 flex-wrap align-top">
           <div className="w-1/2 p-1 md:p-2">
