@@ -2,8 +2,8 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import CircleText from '/Users/mohnish/Desktop/tailwind-landing-page-template/components/CircleText.js';
 import Link from 'next/link';
+import CircleText from '../components/CircleText';
 
 
 export default function Hero() {

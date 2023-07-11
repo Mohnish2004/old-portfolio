@@ -1,6 +1,5 @@
 'use client'
-import CircleText from '/Users/mohnish/Desktop/tailwind-landing-page-template/components/CircleText.js';
-
+import CircleText from '../components/CircleText';
 
 export default function Hero() {
   return (
