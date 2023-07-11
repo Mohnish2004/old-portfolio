@@ -28,7 +28,7 @@ import Image from 'next/image';
           img: "/images/313shots_so.png",
           date: "Jan 4 2022",
           href: "javascript:void(0)",
-          type: "https://github.com/Mohnish2004/EnigmaCoin"
+          type: "Cyber-Security"
 
       },
       {
