@@ -43,7 +43,7 @@ export default function Header() {
                 <Link href="/signin" className="font-extrabold text-gray-600 hover:text-white px-5 py-3 flex items-center transition duration-150 ease-in-out">Experience</Link>
               </li>
               <li>
-                <Link href="#footer" className="font-extrabold text-gray-600 hover:text-white px-5 py-3 flex items-center transition duration-150 ease-in-out">About me</Link>
+                <Link href="/About" className="font-extrabold text-gray-600 hover:text-white px-5 py-3 flex items-center transition duration-150 ease-in-out">About me</Link>
               </li>
               <li>
                 <Link href="/Contact" className="font-extrabold text-gray-600 hover:text-white px-5 py-3 flex items-center transition duration-150 ease-in-out">Contact</Link>
