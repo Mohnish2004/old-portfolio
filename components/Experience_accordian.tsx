@@ -209,7 +209,7 @@ export default function Hero() {
         <img
           alt="gallery"
           className="block h-full w-full rounded-lg object-cover object-center"
-          src="/images/exp_pics/19.jpg"
+          src="/images/exp_pics/19.JPG"
         />
       </div>
     </div>
@@ -310,7 +310,7 @@ export default function Hero() {
         <img
           alt="gallery"
           className="block h-full w-full rounded-lg object-cover object-center"
-          src="/images/exp_pics/27.JPG"
+          src="/images/exp_pics/27.jpg"
         />
       </div>
       <div className="w-1/2 p-1 md:p-2">
