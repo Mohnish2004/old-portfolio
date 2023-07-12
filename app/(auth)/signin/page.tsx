@@ -23,7 +23,6 @@ export default function Home() {
       <Experience />
       <Experience_accordian/>
       <Experience_banner_3 />
-      <Clients />
       <Testimonials />
     </>
   )

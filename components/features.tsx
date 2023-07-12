@@ -21,7 +21,9 @@ export default function Example() {
                 </p>
               </div>
               <div className="mt-1" data-aos="zoom-y-out"> {/* No change to mt-1 */}
+              <dl>
                 <dt className="font-bold text-white underline decoration-pink-500 hover:decoration--400" data-aos="zoom-y-out">Web Development</dt>
+                </dl>
                 <button
                   type="button"
                   className="mt-6 mb-20 inline-block rounded-full border-2 border-neutral-50 px-6 pb-[6px] pt-2 text-xs font-medium uppercase leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-100 hover:bg-neutral-500 hover:bg-opacity-10 hover:text-neutral-100 focus:border-neutral-100 focus:text-neutral-100 focus:outline-none focus:ring-0 active:border-neutral-200 active:text-neutral-200 dark:hover:bg-neutral-100 dark:hover:bg-opacity-10" data-aos="zoom-y-out"
@@ -53,7 +55,9 @@ export default function Example() {
                 </p>
               </div>
               <div className="mt-1"> {/* No change to mt-1 */}
+              <dl>
                 <dt className="font-bold text-white underline decoration-blue-500 hover:decoration--400" data-aos="zoom-y-out">Cyber Security</dt>
+                </dl>
                 <button
                   type="button"
                   data-aos="zoom-y-out"
@@ -76,7 +80,9 @@ export default function Example() {
                 </p>
               </div>
               <div className="mt-7"> {/* No change to mt-1 */}
+              <dl>
                 <dt className="font-bold text-white underline decoration-yellow-500 hover:decoration--400" data-aos="zoom-y-out">APP Development</dt>
+                </dl>
                 <button
                   type="button"
                   className="mt-6 mb-20 inline-block rounded-full border-2 border-neutral-50 px-6 pb-[6px] pt-2 text-xs font-medium uppercase leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-100 hover:bg-neutral-500 hover:bg-opacity-10 hover:text-neutral-100 focus:border-neutral-100 focus:text-neutral-100 focus:outline-none focus:ring-0 active:border-neutral-200 active:text-neutral-200 dark:hover:bg-neutral-100 dark:hover:bg-opacity-10"

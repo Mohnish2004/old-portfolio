@@ -60,14 +60,14 @@ export default function Footer() {
                   <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Contact</h2>
                   <ul className="text-gray-500 dark:text-gray-400 font-medium">
                       <li className="mb-4">
-                          <a className="hover">(510)946-9930</a>
+                          <a>(510)946-9930</a>
                       </li>
 
                       <li className="mb-4">
-                          <a  className="hover">mohnishgopi@gmail.com</a>
+                          <a>mohnishgopi@gmail.com</a>
                       </li>
                       <li>
-                          <a  className="hover">mgopi@ucdavis.edu</a>
+                          <a>mgopi@ucdavis.edu</a>
                       </li>
                   </ul>
               </div>
