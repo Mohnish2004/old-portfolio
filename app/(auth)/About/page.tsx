@@ -23,10 +23,6 @@ import About_pics from '@/components/about_pics'
       <About_banner/>
       <About_info/>
       <About_pics/>
- 
-      <Clients/>
-      <Testimonials/>
-        <br></br>
       </>
     )
   }
