@@ -73,7 +73,7 @@ export default function Hero() {
               <img
                 alt="gallery"
                 className="block h-full w-full rounded-lg object-cover object-center"
-                src="/images/about_pics/100.JPG" />
+                src="/images/about_pics/100.jpg" />
             </div>
           </div>
           <div className="flex w-1/2 py-2 flex-wrap align-top">
@@ -87,13 +87,13 @@ export default function Hero() {
               <img
                 alt="gallery"
                 className="block h-full w-full rounded-lg object-cover object-center"
-                src="/images/about_pics/11.jpg" />
+                src="/images/about_pics/11.JPG" />
             </div>
             <div className="w-1/2 p-1 md:p-2">
               <img
                 alt="gallery"
                 className="block h-50 w-full rounded-lg object-cover object-center"
-                src="/images/about_pics/104.JPG" />
+                src="/images/about_pics/104.jpg" />
             </div>
           </div>
         </div>
@@ -229,7 +229,7 @@ export default function Hero() {
               <img
                 alt="gallery"
                 className="block h-full w-full rounded-lg object-cover object-center"
-                src="/images/about_pics/53.JPG" />
+                src="/images/about_pics/53.jpg" />
             </div>
             <div className="w-1/2 p-1 md:p-2">
               <img
@@ -261,7 +261,7 @@ export default function Hero() {
               <img
                 alt="gallery"
                 className="block h-50 w-full rounded-lg object-cover object-center"
-                src="/images/about_pics/103.JPG" />
+                src="/images/about_pics/103.jpg" />
             </div>
           </div>
         </div>
