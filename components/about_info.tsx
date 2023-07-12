@@ -20,10 +20,10 @@ export default () => {
           </p>
           <br></br>
           <br></br>
-          <a href="https://www.linkedin.com/in/mohnish-gopi/" className="rounded-md bg-white px-4 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">
+          <a href="/Contact" className="rounded-md bg-white px-4 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">
               Contact me</a>
-            <a href="https://docs.google.com/document/d/e/2PACX-1vTx1dG5lHXLgkZOmtqWeIrbph_rc2qQ3Y1T_-d5sWrXNmuKF6kkIOQaUOr5Uww87w/pub" className="text-sm px-4 font-semibold leading-6 text-white">
-              My Experience <span aria-hidden="true"></span>
+            <a href="/signin" className="text-sm px-4 font-semibold leading-6 text-white">
+              Experience <span aria-hidden="true"></span>
             </a>
         </div>
       </div>
