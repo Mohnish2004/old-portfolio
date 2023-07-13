@@ -32,7 +32,7 @@ export default () => {
         quote: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit."
     },
     {
-        avatar: "https://media.licdn.com/dms/image/D5603AQGB1R17PyhNfQ/profile-displayphoto-shrink_800_800/0/1676131977673?e=2147483647&v=beta&t=2SYfg1QRMiCv8puTTlkibJal1JWmaWxMweEuCXEjMrY",
+        avatar: "",
         name: "Jim Pantaleo",
         title: "Business Development Coordinator @ AI Institute",
         quote: "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain."
@@ -57,7 +57,7 @@ export default () => {
                               <li key={idx} className="bg-gray-50 p-4 rounded-xl">
                                   <figure>
                                       <div className="flex items-center gap-x-4">
-                                          <img src={item.avatar} className="w-16 h-16 rounded-full" />
+                                          <img src={item.avatar} className="w-16 h-full rounded-full" />
                                           <div>
                                               <span className="block text-gray-800 font-semibold">{item.name}</span>
                                               <span className="block text-gray-600 text-sm mt-0.5">{item.title}</span>

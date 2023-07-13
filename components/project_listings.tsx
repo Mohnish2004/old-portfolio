@@ -103,7 +103,7 @@ import Image from 'next/image';
               <li className="w-full mx-auto group sm:max-w-sm" key={index}>
                 <a href={item.href}>
                   <div className="h-full w-full bg-gray-0 rounded-lg bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-100 shadow-md">
-                    <img src={item.img} alt={item.title} className="h-56 w-full rounded-xl object-cover shadow-xl object-center transition duration-200 group-hover:scale-110" />
+                    <img src={item.img} className="h-60 w-full rounded-xl transition duration-200 group-hover:scale-110" alt={item.title} />
                     <div className="mt-3 space-y-2">
                       <span className="block font-extrabold text-white text-sm">{item.date}</span>
                       <div className="flex items-center justify-between">

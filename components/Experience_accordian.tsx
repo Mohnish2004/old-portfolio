@@ -71,7 +71,7 @@ const members = [
 
 export default function Hero() {
     return(
-      <><section className="py-10">
+      <section className="py-10">
         <div className=" mx-auto px-5 py-1 lg:px-32 lg:py-1 ">
   <div className="-m-1 flex flex-wrap md:-m-2">
     <div className="flex w-1/2 flex-wrap align-top">
@@ -126,7 +126,6 @@ export default function Hero() {
 <br></br>
 <br></br>
 <br></br>
-        
         <div className="max-w-screen-lg mx-auto px-4 md:px-8">
           <div className="w-100">
             <h1 className="text-white text-3xl font-extrabold sm:text-5xl">Technical experience</h1>
@@ -182,8 +181,6 @@ export default function Hero() {
             ))}
           </ul>
         </div>
-
-
 <br></br>
 <br></br>
 <br></br>
@@ -238,7 +235,6 @@ export default function Hero() {
     </div>
   </div>
 </div>
-
         <div className="bg-black py-6 sm:py-8 lg:py-12">
           <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
 
@@ -330,7 +326,5 @@ export default function Hero() {
     </div>
   </div>
 </div>
-      </section></>
-
-   
+      </section>
         )}
