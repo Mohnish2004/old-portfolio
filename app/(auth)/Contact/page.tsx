@@ -1,3 +1,5 @@
+import { useState, useEffect } from 'react'
+
 export const metadata = {
   title: 'Contact me',
   description: 'This is where you can find my contact information',

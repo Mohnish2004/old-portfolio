@@ -32,7 +32,7 @@ export default () => {
         quote: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit."
     },
     {
-        avatar: "",
+        avatar: "https://media.licdn.com/dms/image/D5603AQGB1R17PyhNfQ/profile-displayphoto-shrink_800_800/0/1676131977673?e=2147483647&v=beta&t=2SYfg1QRMiCv8puTTlkibJal1JWmaWxMweEuCXEjMrY",
         name: "Jim Pantaleo",
         title: "Business Development Coordinator @ AI Institute",
         quote: "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain."

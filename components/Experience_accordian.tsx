@@ -1,5 +1,7 @@
 'use client'
 import React, { useState } from 'react';
+import { useEffect } from 'react'
+
 
 const members = [
   
@@ -319,7 +321,7 @@ export default function Hero() {
       <div className="w-1/2 p-1 md:p-2">
         <img
           alt="gallery"
-          className="block h-50 w-full rounded-lg object-cover object-center"
+          className="block h-full w-full rounded-lg object-cover object-center"
           src="/images/exp_pics/30.jpg"
         />
       </div>

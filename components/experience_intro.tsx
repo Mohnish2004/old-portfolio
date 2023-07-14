@@ -1,5 +1,7 @@
 'use client'
-import React, { useEffect } from 'react';
+import { useState, useEffect } from 'react'
+
+import React from 'react';
 import AOS from 'aos';
 import CircleText from '../components/CircleText';
 

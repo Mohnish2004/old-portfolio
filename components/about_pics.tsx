@@ -1,5 +1,7 @@
 'use client'
-import React, { useState } from 'react';
+import React from 'react';
+import { useState, useEffect } from 'react'
+
 
 
 
@@ -10,7 +12,6 @@ export default function Hero() {
       <h1 className="text-gray-200 text-6xl font-semibold sm:text-6xl">
       Through My Lens
           </h1>
-
         <br></br>
         <br></br>
         <div className="-m-1 flex flex-wrap md:-m-2">
@@ -19,19 +20,19 @@ export default function Hero() {
               <img
                 alt="gallery"
                 className="block h-full w-full rounded-lg object-cover object-center"
-                src="/images/about_pics/1.jpg" />
+                src="/images/about_pics/1.webp" />
             </div>
             <div className="w-1/2 p-1 md:p-2">
               <img
                 alt="gallery"
                 className="block h-full w-full rounded-lg object-cover object-center"
-                src="/images/about_pics/2.jpg" />
+                src="/images/about_pics/2.webp" />
             </div>
             <div className="w-full p-1 md:p-2">
               <img
                 alt="gallery"
                 className="block h-full w-full rounded-lg object-cover object-center"
-                src="/images/about_pics/3.jpg" />
+                src="/images/about_pics/3.webp" />
             </div>
           </div>
           <div className="flex w-1/2 py-2 flex-wrap align-top">
@@ -39,7 +40,7 @@ export default function Hero() {
               <img
                 alt="gallery"
                 className="block h-full w-full rounded-lg object-cover object-center"
-                src="/images/about_pics/4.JPG" />
+                src="/images/about_pics/4.webp" />
             </div>
             <div className="w-1/2 p-1 md:p-2">
               <img
@@ -61,19 +62,19 @@ export default function Hero() {
               <img
                 alt="gallery"
                 className="block h-full w-full rounded-lg object-cover object-center"
-                src="/images/about_pics/7.JPG" />
+                src="/images/about_pics/7.webp" />
             </div>
             <div className="w-1/2 p-1 md:p-2">
               <img
                 alt="gallery"
                 className="block h-full w-full rounded-lg object-cover object-center"
-                src="/images/about_pics/8.JPG" />
+                src="/images/about_pics/8.webp" />
             </div>
             <div className="w-full p-1 md:p-2">
               <img
                 alt="gallery"
                 className="block h-full w-full rounded-lg object-cover object-center"
-                src="/images/about_pics/100.jpg" />
+                src="/images/about_pics/100.webp" />
             </div>
           </div>
           <div className="flex w-1/2 py-2 flex-wrap align-top">
@@ -81,19 +82,19 @@ export default function Hero() {
               <img
                 alt="gallery"
                 className="block h-full w-full rounded-lg object-cover object-center"
-                src="/images/about_pics/20.JPG" />
+                src="/images/about_pics/20.webp" />
             </div>
             <div className="w-1/2 p-1 md:p-2">
               <img
                 alt="gallery"
                 className="block h-full w-full rounded-lg object-cover object-center"
-                src="/images/about_pics/11.JPG" />
+                src="/images/about_pics/11.webp" />
             </div>
             <div className="w-1/2 p-1 md:p-2">
               <img
                 alt="gallery"
                 className="block h-50 w-full rounded-lg object-cover object-center"
-                src="/images/about_pics/104.jpg" />
+                src="/images/about_pics/104.webp" />
             </div>
           </div>
         </div>
@@ -103,19 +104,19 @@ export default function Hero() {
               <img
                 alt="gallery"
                 className="block h-full w-full rounded-lg object-cover object-center"
-                src="/images/about_pics/13.JPG" />
+                src="/images/about_pics/13.jpg" />
             </div>
             <div className="w-1/2 p-1 md:p-2">
               <img
                 alt="gallery"
                 className="block h-full w-full rounded-lg object-cover object-center"
-                src="/images/about_pics/30.JPG" />
+                src="/images/about_pics/30.webp" />
             </div>
             <div className="w-full p-1 md:p-2">
               <img
                 alt="gallery"
                 className="block h-full w-full rounded-lg object-cover object-center"
-                src="/images/about_pics/48.JPG" />
+                src="/images/about_pics/48.webp" />
             </div>
           </div>
           <div className="flex w-1/2 py-2 flex-wrap align-top">
@@ -123,19 +124,19 @@ export default function Hero() {
               <img
                 alt="gallery"
                 className="block h-full w-full rounded-lg object-cover object-center"
-                src="/images/about_pics/16.JPG" />
+                src="/images/about_pics/16.webp" />
             </div>
             <div className="w-1/2 p-1 md:p-2">
               <img
                 alt="gallery"
                 className="block h-full w-full rounded-lg object-cover object-center"
-                src="/images/about_pics/17.JPG" />
+                src="/images/about_pics/17.webp" />
             </div>
             <div className="w-1/2 p-1 md:p-2">
               <img
                 alt="gallery"
                 className="block h-50 w-full rounded-lg object-cover object-center"
-                src="/images/about_pics/18.JPG" />
+                src="/images/about_pics/18.webp" />
             </div>
           </div>
         </div>
@@ -145,19 +146,19 @@ export default function Hero() {
               <img
                 alt="gallery"
                 className="block h-full w-full rounded-lg object-cover object-center"
-                src="/images/about_pics/31.JPG" />
+                src="/images/about_pics/31.webp" />
             </div>
             <div className="w-1/2 p-1 md:p-2">
               <img
                 alt="gallery"
                 className="block h-full w-full rounded-lg object-cover object-center"
-                src="/images/about_pics/32.JPG" />
+                src="/images/about_pics/32.webp" />
             </div>
             <div className="w-full p-1 md:p-2">
               <img
                 alt="gallery"
                 className="block h-full w-full rounded-lg object-cover object-center"
-                src="/images/about_pics/33.JPG" />
+                src="/images/about_pics/33.webp" />
             </div>
           </div>
           <div className="flex w-1/2 py-2 flex-wrap align-top">
@@ -165,19 +166,19 @@ export default function Hero() {
               <img
                 alt="gallery"
                 className="block h-full w-full rounded-lg object-cover object-center"
-                src="/images/about_pics/37.JPG" />
+                src="/images/about_pics/37.webp" />
             </div>
             <div className="w-1/2 p-1 md:p-2">
               <img
                 alt="gallery"
                 className="block h-full w-full rounded-lg object-cover object-center"
-                src="/images/about_pics/38.JPG" />
+                src="/images/about_pics/38.webp" />
             </div>
             <div className="w-1/2 p-1 md:p-2">
               <img
                 alt="gallery"
                 className="block h-50 w-full rounded-lg object-cover object-center"
-                src="/images/about_pics/39.JPG" />
+                src="/images/about_pics/39.webp" />
             </div>
           </div>
         </div>
@@ -187,19 +188,19 @@ export default function Hero() {
               <img
                 alt="gallery"
                 className="block h-full w-full rounded-lg object-cover object-center"
-                src="/images/about_pics/45.JPG" />
+                src="/images/about_pics/45.webp" />
             </div>
             <div className="w-1/2 p-1 md:p-2">
               <img
                 alt="gallery"
                 className="block h-full w-full rounded-lg object-cover object-center"
-                src="/images/about_pics/42.JPG" />
+                src="/images/about_pics/42.webp" />
             </div>
             <div className="w-full p-1 md:p-2">
               <img
                 alt="gallery"
                 className="block h-full w-full rounded-lg object-cover object-center"
-                src="/images/about_pics/43.JPG" />
+                src="/images/about_pics/43.webp" />
             </div>
           </div>
           <div className="flex w-1/2 py-2 flex-wrap align-top">
@@ -207,19 +208,19 @@ export default function Hero() {
               <img
                 alt="gallery"
                 className="block h-full w-full rounded-lg object-cover object-center"
-                src="/images/about_pics/40.JPG" />
+                src="/images/about_pics/40.webp" />
             </div>
             <div className="w-1/2 p-1 md:p-2">
               <img
                 alt="gallery"
                 className="block h-full w-full rounded-lg object-cover object-center"
-                src="/images/about_pics/46.JPG" />
+                src="/images/about_pics/46.webp" />
             </div>
             <div className="w-1/2 p-1 md:p-2">
               <img
                 alt="gallery"
                 className="block h-50 w-full rounded-lg object-cover object-center"
-                src="/images/about_pics/47.jpg" />
+                src="/images/about_pics/47.webp" />
             </div>
           </div>
         </div>
@@ -229,19 +230,19 @@ export default function Hero() {
               <img
                 alt="gallery"
                 className="block h-full w-full rounded-lg object-cover object-center"
-                src="/images/about_pics/53.jpg" />
+                src="/images/about_pics/53.webp" />
             </div>
             <div className="w-1/2 p-1 md:p-2">
               <img
                 alt="gallery"
                 className="block h-full w-full rounded-lg object-cover object-center"
-                src="/images/about_pics/51.jpg" />
+                src="/images/about_pics/51.webp" />
             </div>
             <div className="w-full p-1 md:p-2">
               <img
                 alt="gallery"
                 className="block h-full w-full rounded-lg object-cover object-center"
-                src="/images/about_pics/50.jpg" />
+                src="/images/about_pics/50.webp" />
             </div>
           </div>
           <div className="flex w-1/2 py-2 flex-wrap align-top">
@@ -249,19 +250,19 @@ export default function Hero() {
               <img
                 alt="gallery"
                 className="block h-full w-full rounded-lg object-cover object-center"
-                src="/images/about_pics/49.jpg" />
+                src="/images/about_pics/49.webp" />
             </div>
             <div className="w-1/2 p-1 md:p-2">
               <img
                 alt="gallery"
                 className="block h-full w-full rounded-lg object-cover object-center"
-                src="/images/about_pics/102.jpg" />
+                src="/images/about_pics/102.webp" />
             </div>
             <div className="w-1/2 p-1 md:p-2">
               <img
                 alt="gallery"
                 className="block h-50 w-full rounded-lg object-cover object-center"
-                src="/images/about_pics/103.jpg" />
+                src="/images/about_pics/103.webp" />
             </div>
           </div>
         </div>
@@ -271,19 +272,19 @@ export default function Hero() {
               <img
                 alt="gallery"
                 className="block h-full w-full rounded-lg object-cover object-center"
-                src="/images/about_pics/55.jpg" />
+                src="/images/about_pics/55.webp" />
             </div>
             <div className="w-1/2 p-1 md:p-2">
               <img
                 alt="gallery"
                 className="block h-full w-full rounded-lg object-cover object-center"
-                src="/images/about_pics/56.jpg" />
+                src="/images/about_pics/56.webp" />
             </div>
             <div className="w-full p-1 md:p-2">
               <img
                 alt="gallery"
                 className="block h-full w-full rounded-lg object-cover object-center"
-                src="/images/about_pics/62.jpg" />
+                src="/images/about_pics/62.webp" />
             </div>
           </div>
           <div className="flex w-1/2 py-2 flex-wrap align-top">
@@ -291,19 +292,19 @@ export default function Hero() {
               <img
                 alt="gallery"
                 className="block h-full w-full rounded-lg object-cover object-center"
-                src="/images/about_pics/61.jpg" />
+                src="/images/about_pics/61.webp" />
             </div>
             <div className="w-1/2 p-1 md:p-2">
               <img
                 alt="gallery"
                 className="block h-full w-full rounded-lg object-cover object-center"
-                src="/images/about_pics/59.jpg" />
+                src="/images/about_pics/59.webp" />
             </div>
             <div className="w-1/2 p-1 md:p-2">
               <img
                 alt="gallery"
                 className="block h-50 w-full rounded-lg object-cover object-center"
-                src="/images/about_pics/63.jpg" />
+                src="/images/about_pics/63.webp" />
             </div>
           </div>
         </div>

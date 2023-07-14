@@ -1,3 +1,5 @@
+import { useState, useEffect } from 'react'
+
 export const metadata = {
   title: 'My Projects',
   description: 'This is where you can discover my work',

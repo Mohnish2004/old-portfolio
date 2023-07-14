@@ -2,6 +2,8 @@ export const metadata = {
   title: 'My Experience',
   description: 'This is where you can see my past experiences',
 }
+import { useState, useEffect } from 'react'
+
 
 import Testimonials from '@/components/testimonials'
 import Stats from '@/components/stats'

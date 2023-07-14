@@ -13,7 +13,7 @@ export default function CircleText() {
 
   return (
     <div className="circle absolute top-1 left-1 transform -translate-x-1/2 -translate-y-1/2">
-      <p id="text" className="text-white text-xl font-bold uppercase">SCROLL DOWN &#8226; SCROLL DOWN &#8226; SCROLL DOWN &#8226;</p>
+      <div id="text" className="text-white text-xl font-bold uppercase">SCROLL DOWN &#8226; SCROLL DOWN &#8226; SCROLL DOWN &#8226;</div>
     </div>
   );
 }

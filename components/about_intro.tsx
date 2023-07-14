@@ -1,5 +1,7 @@
 'use client'
 import CircleText from '../components/CircleText';
+import { useState, useEffect } from 'react'
+
 
 export default function Hero() {
   return (
