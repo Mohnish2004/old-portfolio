@@ -23,7 +23,7 @@ export default function Stats() {
       {/* Add space above the image */}
       <div className="max-w-800 mx-auto px-200 sm:px-0 mt-12 mb-30">
         <div className="relative">
-          <Image src={BannerImage} alt="Banner Image" layout="responsive" className="w-full" />
+          <Image src={BannerImage} alt="Banner Image" className="w-full" />
         </div>
       </div>
     </section>

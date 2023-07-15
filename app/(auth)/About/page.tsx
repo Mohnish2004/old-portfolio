@@ -5,9 +5,7 @@ export const metadata = {
     description: 'This is where you can find information about me',
   }
   
-  
-  import Testimonials from '@/components/testimonials'
-  import Clients from '@/components/clients'
+
   import About_intro from '@/components/about_intro'
   import About_banner from '@/components/about_banner'
 import About_info from '@/components/about_info'

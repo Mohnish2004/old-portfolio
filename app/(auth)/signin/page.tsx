@@ -6,8 +6,7 @@ import { useState, useEffect } from 'react'
 
 
 import Testimonials from '@/components/testimonials'
-import Stats from '@/components/stats'
-import Clients from '@/components/clients'
+
 import Experience_intro from '@/components/experience_intro'
 import Experience_banner_1 from '@/components/experience_banner1'
 import Experience_banner_2 from '@/components/experience_banner2'

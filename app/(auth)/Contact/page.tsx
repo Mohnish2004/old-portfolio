@@ -6,9 +6,6 @@ export const metadata = {
 }
 
 
-import Testimonials from '@/components/testimonials'
-import Stats from '@/components/stats'
-import Clients from '@/components/clients'
 import Contact_intro from '@/components/contact_intro'
 
 
