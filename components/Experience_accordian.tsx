@@ -208,7 +208,7 @@ export default function Hero() {
         <Image
           
           className="block h-full w-full rounded-lg object-cover object-center"
-          src="/images/exp_pics/19.JPg" alt={''} width={500} height={500}
+          src="/images/exp_pics/19.JPG" alt={''} width={500} height={500}
         />
       </div>
     </div>
