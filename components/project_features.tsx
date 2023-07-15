@@ -46,7 +46,7 @@ export default function Example() {
     </div>
     <div className="mt-1 flex items-center justify-center">
       <Image 
-        src="/images/megaa.png" width={900} height={900} 
+        src="/images/megaa.png" width={500} height={500} 
         alt="" 
         className="mx-auto rounded-lg shadow-lg" 
         style={{ width: '120%', maxWidth: 'none'}}
