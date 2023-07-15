@@ -23,10 +23,10 @@ If my wild rollercoaster story didn't pique your curiosity, I don't know what wi
           </div>
         </div>
         <div className="grid gap-4 sm:gap-6 lg:gap-8">
-          <img
+          <Image
             src="/images/pic1.png"
             alt="Walnut card tray with white powder coated steel divider and 3 punchout holes."
-            className="w-90 rounded-lg"
+            className="w-90 rounded-lg" width={500} height={500}
           />
         </div>
       </div>

@@ -1,5 +1,7 @@
 'use client'
 import { useState, useEffect } from 'react'
+import Image from 'next/image';
+
 
 import React from 'react';
 import AOS from 'aos';
@@ -14,19 +16,19 @@ export default function Hero() {
     <section className="relative min-h-screen my-30">
       <CircleText />
       {/* Background image */}
-      <div
-        className="relative h-full w-full my-30 background-image"
+        <Image
+        alt="Background Image"
+        src="/images/experience/experience_intro.png"
+        layout="fill"
+        objectFit="cover"
+        objectPosition="center"
         data-aos="zoom-y-out"
         style={{
-          backgroundImage: `url('/images/experience/experience_intro.png')`,
-          backgroundSize: '93%',
-          backgroundPosition: 'center',
           marginTop: '40px',
-          marginBottom: '5px',
+          marginBottom: '30px',
           backgroundColor: 'black',
         }}
-      >
-        </div>
+          />
     </section>
   );
 }

@@ -4,6 +4,8 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Link from 'next/link';
 import CircleText from '../components/CircleText';
+import Image from 'next/image';
+
 
 export default function Hero() {
   useEffect(() => {
@@ -14,19 +16,19 @@ export default function Hero() {
     <section className="relative min-h-screen my-30">
       {/* Background image */}
       <CircleText />
-      <div
-        className="relative h-full w-full my-30 background-image"
+      <Image
+        alt="Background Image"
+        src="/images/Projects3.png"
+        layout="fill"
+        objectFit="cover"
+        objectPosition="center"
         data-aos="zoom-y-out"
         style={{
-          backgroundImage: `url('/images/Projects3.png')`,
-          backgroundSize: '93%',
-          backgroundPosition: 'center',
           marginTop: '40px',
-          marginBottom: '5px',
+          marginBottom: '30px',
           backgroundColor: 'black',
         }}
-      >
-        </div>
+          />
     </section>
   );
 }

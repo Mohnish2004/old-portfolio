@@ -1,5 +1,6 @@
 'use client'
 import { useState, useEffect } from 'react'
+import Image from 'next/image'
 
 
 export default function Example() {
@@ -35,16 +36,16 @@ export default function Example() {
               </div>
             </div>
             <div>
-              <img
-                src="/images/92shots_so.png"
+              <Image
+                src="/images/92shots_so.png" width={500} height={500}
                 alt="Walnut card tray with white powder coated steel divider and 3 punchout holes."
                 className="w-90 rounded-2xl bg-gray-100" data-aos="zoom-y-out"/>
             </div>
           </div>
           <div className="mt-20 grid grid-cols-1 gap-x-10 gap-y-16 lg:grid-cols-2">
             <div>
-              <img
-                src="/images/313shots_so.png"
+              <Image
+                src="/images/313shots_so.png" width={500} height={500}
                 alt="Walnut card tray with white powder coated steel divider and 3 punchout holes."
                 className="w-90 rounded-2xl bg-gray-100"data-aos="zoom-y-out" />
             </div>
@@ -95,8 +96,8 @@ export default function Example() {
               </div>
             </div>
             <div>
-              <img
-                src="/images/932shots_so.png"
+              <Image
+                src="/images/932shots_so.png" width={500} height={500}
                 alt="Walnut card tray with white powder coated steel divider and 3 punchout holes."
                 data-aos="zoom-y-out"
                 className="w-90 rounded-2xl bg-gray-100" />

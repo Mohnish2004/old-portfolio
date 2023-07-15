@@ -1,6 +1,8 @@
 'use client'
 import CircleText from '../components/CircleText';
 import { useState, useEffect } from 'react'
+import Image from 'next/image'
+
 
 
 export default function Hero() {
@@ -10,18 +12,19 @@ export default function Hero() {
       <div className="rotating-image-container">
           <CircleText />
         </div>
-      <div
-        className="absolute h-full w-full my-20 background-image"
+        <Image
+        alt="Background Image"
+        src="/images/HomeF3.png"
+        layout="fill"
+        objectFit="cover"
+        objectPosition="center"
         data-aos="zoom-y-out"
         style={{
-          backgroundImage: `url('/images/HomeF3.png')`,
-          backgroundSize: '95%',
-          backgroundPosition: 'center',
           marginTop: '40px',
           marginBottom: '30px',
           backgroundColor: 'black',
         }}
-      />
+          />
     </section>
   );
 }

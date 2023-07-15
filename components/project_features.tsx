@@ -45,8 +45,8 @@ export default function Example() {
       </a>
     </div>
     <div className="mt-1 flex items-center justify-center">
-      <img 
-        src="/images/megaa.png" 
+      <Image 
+        src="/images/megaa.png" width={900} height={900} 
         alt="" 
         className="mx-auto rounded-lg shadow-lg" 
         style={{ width: '120%', maxWidth: 'none'}}
@@ -75,8 +75,8 @@ export default function Example() {
                     </p>
                 </div>
                 <div className="flex-1 mt-5 mx-auto sm:w-9/12 lg:mt-0 lg:w-auto">
-                    <img 
-                        src="/images/Laptop1.png" 
+                    <Image 
+                        src="/images/Laptop1.png" width={500} height={500} 
                         alt="" 
                         className="mx-auto rounded-lg shadow-lg"
         style={{ width: '130%', maxWidth: 'none' }}
@@ -88,8 +88,8 @@ export default function Example() {
   <div className="absolute top-0 left-0 w-full h-full bg-black"></div>
   <div className="relative z-10 gap-5 items-center lg:flex">
     <div className="flex-1 mt-5 mx-auto sm:w-9/12 lg:mt-0 lg:w-auto">
-      <img 
-        src="/images/mobile.png" 
+      <Image 
+        src="/images/mobile.png" width={500} height={500} 
         alt="" 
         className="mx-auto rounded-lg shadow-lg" 
         style={{ width: '120%', maxWidth: 'none' }}
