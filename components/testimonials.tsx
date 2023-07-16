@@ -21,7 +21,7 @@ export default () => {
           quote: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit."
       },
       {
-          avatar: "",
+          avatar: "/images/Testimonial/rajesh.jpeg",
           name: "Rajesh Balaraman",
           title: "Project Manager @ Google",
           quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae."
@@ -39,7 +39,7 @@ export default () => {
         quote: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit."
     },
     {
-        avatar: "",
+        avatar: "/images/Testimonial/jim.jpeg",
         name: "Jim Pantaleo",
         title: "Business Development Coordinator @ AI Institute",
         quote: "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain."
