@@ -4,7 +4,6 @@ import { useState, useEffect } from 'react'
 import Image from 'next/image';
 export default function Hero() {
     return(
-
       <div className=" mx-auto px-5 py-2\3 lg:px-32 lg:py-2 ">
       <h1 className="text-gray-200 text-6xl font-semibold sm:text-6xl">
       Through My Lens
@@ -91,7 +90,7 @@ export default function Hero() {
             <div className="w-1/2 p-1 md:p-2">
               <Image
                 className="block h-full w-full rounded-lg object-cover object-center"
-                src="/images/about_pics/13.jpeg" alt={''} width={500} height={500} />
+                src="/images/about_pics/13.jpg" alt={''} width={500} height={500} />
             </div>
             <div className="w-1/2 p-1 md:p-2">
               <Image

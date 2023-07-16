@@ -38,7 +38,7 @@ body {
 .circle {
   position: absolute;
   top: 35%; /* Adjust the vertical position */
-  left: 20%; /* Adjust the horizontal position */
+  left: 17%; /* Adjust the horizontal position */
   transform: translate(-50%, -50%); /* Center the circle text */
   z-index: 2; /* Set a higher z-index to make it appear above the background image */
 }

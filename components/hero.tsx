@@ -14,11 +14,12 @@ export default function Hero() {
         </div>
         <Image
         alt="Background Image"
-        src="/images/HomeF3.png"
+        src="/images/homep.png"
         layout="fill"
         objectFit="cover"
         objectPosition="center"
         data-aos="zoom-y-out"
+        className='relative'
         style={{
           marginTop: '40px',
           marginBottom: '30px',

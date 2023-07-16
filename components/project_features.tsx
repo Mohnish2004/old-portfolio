@@ -37,6 +37,7 @@ export default function Example() {
       <a
         className="mt-5 px-4 py-2 text-cyan-600 font-medium bg-indigo-50 rounded-full inline-flex items-center"
         href="https://profficient.net/"
+        target="_blank"
       >
         Try it out
         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 ml-1 duration-150" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -108,7 +109,7 @@ export default function Example() {
       <div className='py-2'></div>
       <a
         className="mt-5 px-4 py-2 text-cyan-600 font-medium bg-indigo-50 rounded-full inline-flex items-center"
-        href="https://devpost.com/software/pool-it-or74mp"
+        href="https://devpost.com/software/pool-it-or74mp" target="_blank"
       >
         Read More
         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 ml-1 duration-150" fill="none" viewBox="0 0 24 24" stroke="currentColor">
