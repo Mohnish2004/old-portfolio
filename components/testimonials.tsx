@@ -18,12 +18,12 @@ export default () => {
           avatar: "/images/Testimonial/1679623471293.jpeg",
           name: "Geetika",
           title: "Associate intern @ Jeffries",
-          quote: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit."
+          quote: " Mohnish is an incredibly creative individual with exceptional product design and management skills. His imaginative mindset and unique ideas make him an invaluable asset to any team he joins. I have no doubt that his future projects will be characterized by ongoing success and innovation."
       },
       {
           avatar: "/images/Testimonial/rajesh.jpeg",
           name: "Rajesh Balaraman",
-          title: "Project Manager @ Google",
+          title: "Software Engineering Manager @ Google",
           quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae."
       },
       {
@@ -41,13 +41,13 @@ export default () => {
     {
         avatar: "/images/Testimonial/jim.jpeg",
         name: "Jim Pantaleo",
-        title: "Business Development Coordinator @ AI Institute",
+        title: "Business Development Coordinator @ AI Institute for Food Systems",
         quote: "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain."
     },
   ]
 
   return (
-      <section className="py-14">
+      <section className="py-20">
           <div className="max-w-screen-xl mx-auto px-4 md:px-8">
               <div className="max-w-xl sm:text-center md:mx-auto">
                   <h3 className="text-white text-5xl font-semibold sm:text-5xl">
