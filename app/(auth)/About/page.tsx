@@ -24,7 +24,6 @@ import About_pics from '@/components/about_pics'
       <About_info/>
       <About_pics/>
       <Analytics />
-
       </>
     )
   }

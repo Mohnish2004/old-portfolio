@@ -6,6 +6,7 @@ import Link from 'next/link'
 import Logo from './logo'
 import MobileMenu from './mobile-menu'
 
+
 export default function Header() {
 
   const [top, setTop] = useState<boolean>(true)
@@ -34,7 +35,8 @@ export default function Header() {
           {/* Desktop navigation */}
           <nav className="hidden md:flex md:grow">
             {/* Desktop sign in links */}
-            <ul className="flex grow justify-end flex-wrap items-center">
+            <ul className="flex grow justify-end flex-wrap items-center ">
+
               <li>
                 <Link href="/signup" className="font-extrabold text-gray-600 hover:text-white px-5 py-3 flex items-center transition duration-150 ease-in-out">Projects</Link>
               </li>

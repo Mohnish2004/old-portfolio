@@ -2,13 +2,21 @@
 import CircleText from '../components/CircleText';
 import { useState, useEffect } from 'react'
 import Image from 'next/image'
+const centeredAlertStyles = {
+  display: 'flex',
+  justifyContent: 'center',
+  marginTop: '10px',
+  marginRight: '370px'
+};
 
 
 
 export default function Hero() {
   return (
+    
     <section className="relative min-h-screen">
       {/* Background image */}
+      
       <div className="rotating-image-container">
           <CircleText />
         </div>
@@ -26,6 +34,10 @@ export default function Hero() {
           backgroundColor: 'black',
         }}
           />
+
+
+
     </section>
+    
   );
 }

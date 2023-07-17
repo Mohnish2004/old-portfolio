@@ -7,7 +7,7 @@ export const metadata = {
 
 import { Analytics } from '@vercel/analytics/react';
 import Contact_intro from '@/components/contact_intro'
-
+import Testimonials from '@/components/testimonials';
 
 
 export default function Home() {
@@ -15,7 +15,6 @@ export default function Home() {
     <>
       <Contact_intro />
       <Analytics />
-
       <br></br>
     </>
   )

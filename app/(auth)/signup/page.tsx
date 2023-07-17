@@ -26,10 +26,8 @@ export default function Home() {
       <Project_listings />
       <Project_banner_3 />
       <Project_banner_2 />
-      <Clients />
-      <Testimonials />
+      <Testimonials/>
       <Analytics />
-
     </>
   )
 }

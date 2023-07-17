@@ -18,8 +18,16 @@ export default function Example() {
 <br></br>
 If my wild rollercoaster story didn't pique your curiosity, I don't know what will! But if you're intrigued and want to dive deeper into the exciting chapters of my life, then go ahead and click below!           </p>
           <div className="mt-4">
-            <button type="button" data-aos="zoom-y-out" className="mt-6 inline-block rounded-full border-2 border-neutral-50 px-6 pb-[6px] pt-2 text-xs font-medium uppercase leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-100 hover:bg-neutral-500 hover:bg-opacity-10 hover:text-neutral-100 focus:border-neutral-100 focus:text-neutral-100 focus:outline-none focus:ring-0 active:border-neutral-200 active:text-neutral-200 dark:hover:bg-neutral-100 dark:hover:bg-opacity-10"
-              data-te-ripple-init>Know more {'>'} </button>
+          <a
+        className="mt-5 py-2 border-2 border-neutral-50 px-6 pb-[6px] pt-2 text-xs font-medium uppercase leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-100 hover:bg-neutral-500 hover:bg-opacity-10 hover:text-neutral-100 focus:border-neutral-100 focus:text-neutral-100 focus:outline-none focus:ring-0 active:border-neutral-200 active:text-neutral-200 dark:hover:bg-neutral-100 dark:hover:bg-opacity-10 rounded-full inline-flex items-center"
+        href="/About"
+      >
+        Read More
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 ml-1 duration-150" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+        </svg>
+      </a>
+
           </div>
         </div>
         <div className="grid gap-4 sm:gap-6 lg:gap-8">
