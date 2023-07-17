@@ -101,7 +101,7 @@ export default function Example() {
               </span>
               <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">My First Breath</h3>
               <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">March 6th, 2004, Abu Dhabi</time>
-              <p className="text-base font-normal text-gray-500 dark:text-gray-400">The day I took my first breath, the universe welcomed a soul brimming with curiosity, ambition, and an insatiable thirst for adventure.</p>
+              <p className="text-base font-normal text-gray-500 dark:text-gray-400">The day the universe witnessed awesomness for the first time</p>
             </li>
           </ol>
         </div>
