@@ -11,6 +11,8 @@ import Stats from '@/components/stats'
 import Strings from '@/components/strings'
 import Clients from '@/components/clients'
 import Strings2 from '@/components/strings2'
+import { Analytics } from '@vercel/analytics/react';
+
 
 
 export default function Home() {
@@ -24,6 +26,7 @@ export default function Home() {
       <FeaturesBlocks />
       <Clients />
       <Testimonials />
+      <Analytics />
     </>
   )
 }

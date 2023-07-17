@@ -4,21 +4,17 @@ export const metadata = {
   title: 'My Projects',
   description: 'This is where you can discover my work',
 }
-import Hero from '@/components/hero'
-import Features from '@/components/features'
-import FeaturesBlocks from '@/components/features-blocks'
 import Testimonials from '@/components/testimonials'
 import Stats from '@/components/stats2'
-import Strings from '@/components/strings'
 import Clients from '@/components/clients'
-import Strings2 from '@/components/strings2'
 import Project_intro from '@/components/projects_intro'
 import Project_banner from '@/components/projects_banner1'
 import Project_features from '@/components/project_features'
 import Project_listings from '@/components/project_listings'
 import Project_banner_2 from '@/components/projects_banner2'
 import Project_banner_3 from '@/components/projects_banner3'
-import Experience from '@/components/Experience'
+import { Analytics } from '@vercel/analytics/react';
+
 
 export default function Home() {
   return (
@@ -32,6 +28,8 @@ export default function Home() {
       <Project_banner_2 />
       <Clients />
       <Testimonials />
+      <Analytics />
+
     </>
   )
 }

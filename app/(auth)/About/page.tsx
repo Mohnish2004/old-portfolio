@@ -5,9 +5,9 @@ export const metadata = {
     description: 'This is where you can find information about me',
   }
   
-
-  import About_intro from '@/components/about_intro'
-  import About_banner from '@/components/about_banner'
+import { Analytics } from '@vercel/analytics/react';
+import About_intro from '@/components/about_intro'
+import About_banner from '@/components/about_banner'
 import About_info from '@/components/about_info'
 import About_pics from '@/components/about_pics'
  /*
@@ -23,6 +23,8 @@ import About_pics from '@/components/about_pics'
       <About_banner/>
       <About_info/>
       <About_pics/>
+      <Analytics />
+
       </>
     )
   }
