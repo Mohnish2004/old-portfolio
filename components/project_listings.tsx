@@ -9,7 +9,7 @@ import Image from 'next/image';
       {
         title: "Profficient",
         desc: " A web-based platform dedicated to providing UC Davis students with a time-saving and effortless experience in viewing and reviewing professors. Profficient eliminates the need for sifting through outdated websites and forums.",
-        img: "/images/Project_Thumbnails/Cover.png",
+        img: "/images/49shots_so.png",
         date: "Jan 4 2022",
         href: "https://codelabdavis.medium.com/introduction-ddb70fec369a",
         type: "Web Dev"
@@ -18,7 +18,7 @@ import Image from 'next/image';
       {
           title: "Pool it",
           desc: "A mobile app developed using Flutter that allows UC Davis students to easily connect and rideshare with fellow students or family members traveling from the university. ",
-          img: "/images/Project_Thumbnails/47.png",
+          img: "/images/932shots_so.png",
           date: "Jan 4 2022",
           href: "https://devpost.com/software/pool-it-or74mp",
           type: "App Dev"
@@ -62,12 +62,21 @@ import Image from 'next/image';
         type: "Web Dev",
         
     },
+    {
+      title: "FarmChain",
+      desc: "An app that revolutionizes the food supply chain through blockchain technology, providing transparency, accountability, and AI-driven shelf life predictions to minimize food waste and ensure food safety.",
+      img: "/images/104.png",
+      date: "Jan 4 2022",
+      href: "https://drive.google.com/file/d/1i3A2WT4jaaVXop15XyYXnANS76ZYRWtd/view",
+      type: "App Dev & AI",
+      
+  },
 
 
   ]
   
   export default function Projects() {
-    const postsPerPage = 6; // Number of posts to show per page
+    const postsPerPage = 9; // Number of posts to show per page
   
     const [currentPage, setCurrentPage] = useState(1);
   
@@ -105,7 +114,7 @@ import Image from 'next/image';
               <li className="w-full mx-auto group sm:max-w-sm" key={index}>
                 <a href={item.href} target="_blank">
                   <div className="h-full w-full bg-gray-0 rounded-lg bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-100 shadow-md">
-                    <Image src={item.img} className="h-60 w-full rounded-xl transition duration-200 group-hover:scale-110" width={500} height={500} alt={item.title} />
+                    <Image src={item.img} className="h-70 w-full rounded-xl transition duration-200 group-hover:scale-110" width={500} height={500} alt={item.title} />
                     <div className="mt-3 space-y-2">
                       <span className="block font-extrabold text-white text-sm">{item.date}</span>
                       <div className="flex items-center justify-between">

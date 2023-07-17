@@ -12,7 +12,7 @@ export default () => {
           avatar: "/images/Testimonial/228657280_2408291969301026_2693986771810010038_n.jpeg",
           name: "Gopi",
           title: "IT Director @ Empower",
-          quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae."
+          quote: "He is an exceptionally hardworking software engineer. With a unique blend of imagination and dedication, he brings a fresh perspective to every project. His drive and determination are off the charts, and he consistently goes above and beyond to deliver outstanding results. "
       },
       {
           avatar: "/images/Testimonial/1679623471293.jpeg",
