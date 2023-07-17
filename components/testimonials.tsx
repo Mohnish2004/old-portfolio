@@ -24,7 +24,7 @@ export default () => {
           quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae."
       },
       {
-        avatar: "",
+        avatar: "/images/Testimonial/Screen Shot 2023-07-17 at 2.31.30 PM.png",
         name: "Caden Newton",
         title: "President @ CodeLab",
         quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae."
@@ -33,13 +33,13 @@ export default () => {
         avatar: "/images/Testimonial/Edward.jpeg",
         name: "Edward Chew",
         title: "Ex-President @ CodeLab",
-        quote: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit."
+        quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae."
     },
     {
         avatar: "/images/Testimonial/jim.jpeg",
         name: "Jim Pantaleo",
         title: "Business Development Coordinator @ AI Institute for Food Systems",
-        quote: "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain."
+        quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae."
     },
   ]
 
@@ -61,7 +61,7 @@ export default () => {
                               <li key={idx} className="bg-gray-50 p-4 rounded-xl">
                                   <figure>
                                       <div className="flex items-center gap-x-4">
-                                          <Image src={item.avatar} className="w-16 h-full rounded-full" alt={''} width={500} height={500} />
+                                          <Image src={item.avatar} className="w-16 h-16 rounded-full" alt={''} width={500} height={500} />
                                           <div>
                                               <span className="block text-gray-800 font-semibold">{item.name}</span>
                                               <span className="block text-gray-600 text-sm mt-0.5">{item.title}</span>
