@@ -21,7 +21,7 @@ export default () => {
           avatar: "/images/Testimonial/rajesh.jpeg",
           name: "Rajesh Balaraman",
           title: "Software Engineering Manager @ Google",
-          quote: "I can see that he is extremely committed in his work and has a great work ethic. That by itself will take him far in life. He is also doing a great job exploring his interests in various fields, all while also remaining a great leader throughout."
+          quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae."
       },
       {
         avatar: "/images/Testimonial/Screen Shot 2023-07-17 at 2.31.30 PM.png",
