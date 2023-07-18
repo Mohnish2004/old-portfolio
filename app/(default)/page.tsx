@@ -24,7 +24,6 @@ export default function Home() {
       <Features />
       <Strings2 />
       <FeaturesBlocks />
-      <Clients />
       <Testimonials />
       <Analytics />
     </>
