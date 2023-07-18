@@ -38,7 +38,7 @@ export default () => {
     {
         avatar: "/images/Testimonial/jim.jpeg",
         name: "Jim Pantaleo",
-        title: "Business Development Coordinator @ AI Institute for Food Systems",
+        title: "Business Development Coordinator @ AI Institute",
         quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae."
     },
   ]

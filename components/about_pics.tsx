@@ -5,9 +5,14 @@ import Image from 'next/image';
 export default function Hero() {
     return(
       <div className=" mx-auto px-5 py-2\3 lg:px-32 lg:py-2 ">
+
+
+<iframe className="border-radius:12px" src="https://open.spotify.com/embed/playlist/0yIGIUWcMpxYiW2Emhibrb?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
       <h1 className="text-gray-200 text-6xl font-semibold sm:text-6xl">
+      <br></br>
       Through My Lens
           </h1>
+
         <br></br>
         <br></br>
         <div className="-m-1 flex flex-wrap md:-m-2">
