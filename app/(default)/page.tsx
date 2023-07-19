@@ -24,7 +24,8 @@ export default function Home() {
       <Features />
       <Strings2 />
       <FeaturesBlocks />
-      <Testimonials /> /*add clients*/
+      <Clients />
+      <Testimonials />
       <Analytics />
     </>
   )

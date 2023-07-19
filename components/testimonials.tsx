@@ -24,6 +24,12 @@ export default () => {
           quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae."
       },
       {
+        avatar: "/images/Testimonial/jim.jpeg",
+        name: "Jim Pantaleo",
+        title: "Business Development Coordinator @ AI Institute",
+        quote: "Mohnish was a participant in an AIFS hackathon some months ago here at UC Davis (I was a mentor to the teams) and I was taken aback at his organization and visualization skills regarding the hack. The judges were blown away by his and his partner's app which garnered 2nd Place among some very tough competitors. My thought was, 'This young man is going places'. Watch him ascend to the highest levels of academia and AgTech. This is a bold statement but I truly believe with great people like Mohnish, our planet will be OK. I believe this. Reach out to him. Meet him. You'll agree."
+    },
+      {
         avatar: "/images/Testimonial/Screen Shot 2023-07-17 at 2.31.30 PM.png",
         name: "Caden Newton",
         title: "President @ CodeLab",
@@ -35,12 +41,7 @@ export default () => {
         title: "Ex-President @ CodeLab",
         quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae."
     },
-    {
-        avatar: "/images/Testimonial/jim.jpeg",
-        name: "Jim Pantaleo",
-        title: "Business Development Coordinator @ AI Institute",
-        quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae."
-    },
+
   ]
 
   return (

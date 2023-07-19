@@ -95,7 +95,7 @@ export default function Hero() {
             <div className="w-1/2 p-1 md:p-2">
               <Image
                 className="block h-full w-full rounded-lg object-cover object-center"
-                src="/images/about_pics/13.jpg" alt={''} width={500} height={500} />
+                src="/images/about_pics/150.jpg" alt={''} width={500} height={500} />
             </div>
             <div className="w-1/2 p-1 md:p-2">
               <Image

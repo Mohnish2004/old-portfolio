@@ -14,16 +14,11 @@ export default function Footer() {
               <a href="https://flowbite.com/" className="flex items-center">
                 <Logo /></a>
                 <form onSubmit={(e) => e.preventDefault()}>
-  <label className="block pt-4 pb-2 text-white">Stay up to date</label>
-  <div className="max-w-sm flex items-center border border-black rounded-md p-1">
-    <input
-      type="email"
-      placeholder="Enter your email"
-      className="w-full p-2.5 outline-black rounded-md text-white"
-    />
-    <button className="p-2.5 ml-2 rounded-md text-black bg-white outline-black shadow-md focus:shadow-none sm:px-5">
-      Subscribe
-    </button>
+  <label className="block pt-4 pb-2 text-white">Lets connect</label>
+  <div className="max-w-sm flex border border-black rounded-md">
+    <a  href="https://calendar.google.com/calendar/appointments/AcZssZ3v3WNqru-XQpPB_dsgAkq7b91P6NPwmkp2nMc=?gv=true" target="_blank" className="p-2.5 rounded-md text-black bg-white outline-black shadow-md focus:shadow-none">
+      Schedule a meeting 
+    </a>
   </div>
 </form>
 
