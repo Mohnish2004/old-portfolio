@@ -16,6 +16,39 @@
     }
 }
 
+/* Replace the existing CSS with the following styles */
+
+.my-masonry-grid {
+  display: flex;
+  margin-left: -16px; /* Adjust as needed */
+  width: auto;
+  justify-content: center; /* To center the content horizontally */
+}
+
+.my-masonry-grid_column {
+  padding-left: 16px; /* Adjust as needed */
+  background-clip: padding-box;
+}
+
+/* Add vertical spacing between testimonial items */
+.my-masonry-grid_column > div:not(:first-child) {
+  margin-top: 20px; /* Adjust the vertical spacing as needed */
+}
+
+/* Adjust the breakpoint columns as needed */
+@media (max-width: 700px) {
+  .my-masonry-grid {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 1100px) {
+  .my-masonry-grid {
+    margin-left: 0;
+  }
+}
+
+
 body {
   background: #2e3537;
   margin: 0;
