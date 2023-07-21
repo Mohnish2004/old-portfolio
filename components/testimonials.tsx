@@ -55,6 +55,13 @@ export default () => {
         title: "Business Consultant @ eSolutions Maximo ",
         quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae."
     },
+
+    {
+      avatar: "/images/Testimonial/download.jpeg",
+      name: "Prashansa Goel",
+      title: "President @ Google Developers Student Club",
+      quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae."
+  },
   ]
   
     return (
