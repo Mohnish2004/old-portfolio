@@ -42,19 +42,20 @@ export default () => {
         title: "Ex-President @ CodeLab",
         quote: "I worked with Mohnish in CodeLab, when he was both an Events Lead on the board and a Product Manager in the general member cohort. In both roles, he hit the ground running. Even as a first-year student, he was able to plan events with tight deadlines, navigate interpersonal challenges on his project team, and oversee a technical project with a then-limited coding background. He’s a very motivated individual and will flourish even in challenging environments."
     },
+    {
+      avatar: "/images/Testimonial/1686936622402.jpeg",
+      name: "Kamal Raydan",
+      title: "Business Consultant @ eSolutions Maximo ",
+      quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae."
+  },
 
       {
         avatar: "/images/Testimonial/Screen Shot 2023-07-17 at 2.31.30 PM.png",
         name: "Caden Newton",
         title: "President @ CodeLab",
-        quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae."
+        quote: "Mohnish is an amazing friend and coworker. It is obvious that he takes pride in his work and handles every project with great care. His dedication, kindness, and attention to detail makes him a huge asset to any team. I am excited to see what he accomplishes in the future!"
     },
-    {
-        avatar: "/images/Testimonial/1686936622402.jpeg",
-        name: "Kamal Raydan",
-        title: "Business Consultant @ eSolutions Maximo ",
-        quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae."
-    },
+
 
     {
       avatar: "/images/Testimonial/download.jpeg",
