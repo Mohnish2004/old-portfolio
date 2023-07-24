@@ -26,7 +26,7 @@ export default function Footer() {
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
               <div>
-                  <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Social</h2>
+                  <h2 className="mb-6 text-sm font-semibold text-white uppercase dark:text-white">Social</h2>
                   <ul className="text-gray-500 dark:text-gray-400 font-medium">
                   <li className="mb-4">
                           <a href="https://www.instagram.com/mohniiiish/" target="_blank" className="hover:underline">Instagram</a>
@@ -40,7 +40,7 @@ export default function Footer() {
                   </ul>
               </div>
               <div>
-                  <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Profile</h2>
+                  <h2 className="mb-6 text-sm font-semibold text-white uppercase dark:text-white">Profile</h2>
                   <ul className="text-gray-500 dark:text-gray-400 font-medium">
                       <li className="mb-4">
                           <a href="https://github.com/Mohnish2004" target="_blank" className="hover:underline ">Github</a>
@@ -54,7 +54,7 @@ export default function Footer() {
                   </ul>
               </div>
               <div>
-                  <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Contact</h2>
+                  <h2 className="mb-6 text-sm font-semibold text-white uppercase dark:text-white">Contact</h2>
                   <ul className="text-gray-500 dark:text-gray-400 font-medium">
                       <li className="mb-4">
                           <a href="Tel:(510)946-9930">(510)946-9930</a>
