@@ -237,17 +237,109 @@ export default function Hero() {
     </div>
   </div>
 </div>
+
+
+
+
         <div className="bg-black py-6 sm:py-8 lg:py-12">
-          <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
+
+          <div className="mx-auto max-w-screen-2xl">
 
             <div className="mx-auto max-w-screen-4xl px-1 md:px-10">
-              <div className="mb-10 md:mb-16">
-              </div>
               <div className="max-w-screen-lg mx-auto px-4 md:px-8">
                 <div className="w-100">
                   <h1 className="text-white text-2xl font-extrabold sm:text-4xl">Other accomplishments</h1>
-                  <br></br>
                 </div>
+                </div>
+                </div>
+                <div className="bg-black py-6 sm:py-8 lg:py-12">
+
+                  
+        <div className="scroll">
+  <div className="m-scroll">
+    <div className="flex w-1/2 flex-wrap align-top">
+        <Image
+          
+          className="block h-90 w-90 rounded-lg object-cover object-center"
+          src="/images/exp_pics/200.png" alt={''} width={400} height={200}
+        />
+      </div>
+      <div className="flex w-1/2 flex-wrap align-top">
+        <Image
+          
+          className="block h-90 w-90 rounded-lg object-cover object-center"
+          src="/images/exp_pics/201.png" alt={''} width={400} height={200}
+        />
+      </div>
+      <div className="flex w-1/2 flex-wrap align-top">
+        <Image
+          
+          className="block h-90 w-90 rounded-lg object-cover object-center"
+          src="/images/exp_pics/202.png" alt={''} width={400} height={200}
+        />
+      </div>
+      <div className="flex w-1/2 flex-wrap align-top">
+        <Image
+          
+          className="block h-90 w-90 rounded-lg object-cover object-center"
+          src="/images/exp_pics/203.png" alt={''} width={400} height={200}
+        />
+      </div>
+      <div className="flex w-1/2 flex-wrap align-top">
+        <Image
+          
+          className="block h-90 w-90 rounded-lg object-cover object-center"
+          src="/images/exp_pics/204.png" alt={''} width={400} height={200}
+        />
+      </div>
+      <div className="flex w-1/2 flex-wrap align-top">
+        <Image
+          
+          className="block h-90 w-90 rounded-lg object-cover object-center"
+          src="/images/exp_pics/205.png" alt={''} width={400} height={200}
+        />
+      </div>
+      <div className="flex w-1/2 flex-wrap align-top">
+        <Image
+          
+          className="block h-90 w-90 rounded-lg object-cover object-center"
+          src="/images/exp_pics/206.png" alt={''} width={400} height={200}
+        />
+      </div>
+      <div className="flex w-1/2 flex-wrap align-top">
+        <Image
+          
+          className="block h-90 w-90 rounded-lg object-cover object-center"
+          src="/images/exp_pics/207.png" alt={''} width={400} height={200}
+        />
+      </div>
+      <div className="flex w-1/2 flex-wrap align-top">
+        <Image
+          
+          className="block h-90 w-90 rounded-lg object-cover object-center"
+          src="/images/exp_pics/210.png" alt={''} width={400} height={200}
+        />
+      </div>
+      <div className="flex w-1/2 flex-wrap align-top">
+        <Image
+          
+          className="block h-90 w-90 rounded-lg object-cover object-center"
+          src="/images/exp_pics/208.png" alt={''} width={400} height={200}
+        />
+      </div>      <div className="flex w-1/2 flex-wrap align-top">
+        <Image
+          
+          className="block h-90 w-90 rounded-lg object-cover object-center"
+          src="/images/exp_pics/211.png" alt={''} width={400} height={200}
+        />
+      </div>
+
+
+</div>
+</div>   
+<br></br>
+
+<div className="max-w-screen-lg mx-auto px-4 md:px-8">
                 <div className="grid gap-0 sm:grid-cols-2 sm:gap-y-2 xl:grid-cols-2">
                   <div className="relative rounded-lg duration-150 hover:border-gray-900 hover:rounded-xl hover:bg-gray-800 bg-black p-5 pt-8">
                     <h3 className="mb-3 text-lg font-semibold text-white md:text-xl">Years of Leadership Experience</h3>
@@ -278,7 +370,11 @@ export default function Hero() {
           </div>
         </div>
         <br></br>
-        <div className=" mx-auto px-5 py-1 lg:px-32 lg:py-1 ">
+
+
+
+
+  <div className=" mx-auto px-5 py-1 lg:px-32 lg:py-1 ">
   <div className="-m-1 flex flex-wrap md:-m-2">
     <div className="flex w-1/2 flex-wrap align-top">
       <div className="w-1/2 p-1 md:p-2">
@@ -328,5 +424,6 @@ export default function Hero() {
     </div>
   </div>
 </div>
+
       </section>
         )}

@@ -90,3 +90,42 @@ body {
 .fixed {
   position: fixed;
 }
+
+.scroll {
+  position: relative;
+  width: 100vw;
+  background-color: boxify-bg-light-dark;
+  overflow: hidden;
+  z-index: 1;
+  margin: 0;
+  padding: 10;
+}
+
+.m-scroll {
+  overflow: hidden;
+  height: 10%;
+  white-space: nowrap;
+  animation: scrollText 90s infinite linear;
+  margin: 10;
+  font-size: 0;
+  display: flex;
+  justify-content: 
+  space-between;
+  width: 400%;
+}
+
+span {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+@keyframes scrollText {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
