@@ -56,12 +56,11 @@ export default () => {
         quote: "Mohnish is an amazing friend and coworker. It is obvious that he takes pride in his work and handles every project with great care. His dedication, kindness, and attention to detail makes him a huge asset to any team. I am excited to see what he accomplishes in the future!"
     },
 
-
     {
       avatar: "/images/Testimonial/download.jpeg",
       name: "Prashansa Goel",
       title: "President @ Google Developers Student Club",
-      quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae."
+      quote: "Mohnish is an exceptional leader. Under his guidance, his GDSC team has consistently created innovative projects and won awards at project showcase events. He has a talent for motivating and inspiring teams to reach their full potential."
   },
   ]
   
