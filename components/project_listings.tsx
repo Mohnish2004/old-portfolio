@@ -34,7 +34,7 @@ import Image from 'next/image';
 
       {
           title: "Enigma Coin",
-          desc: " A blockchain-based cryptocurrency project, Explores the application of RSA encryption in blockchain technology.  ",
+          desc: " Enigma Coin is a blockchain-based cryptocurrency project developed from scratch using Python. So We created our own blockchain with RSA encryption and implemented functionalities like mining, transactions, purchase etc. ",
           img: "/images/313shots_so.png",
           date: "Jan 4 2022",
           href: "https://github.com/Mohnish2004/EnigmaCoin.git",
