@@ -121,7 +121,7 @@ import Image from 'next/image';
                         <h3 className="flex items-center text-lg text-gray-300 group-hover:text-cyan-600 font-semibold">
                           {item.title}
                         </h3>
-                        <span className="flex items-start justify-between rounded-full bg-blue-50 shadow px-2 py-1 -mt-1 text-xs group-hover:text-cyan-600 font-semibold text-black-600">{item.type}</span>
+                        <span className="flex items-start justify-between rounded-full bg-blue-50 shadow px-2 py-1 -mt-1 text-xs group-hover:text-cyan-600 font-semibold text-black">{item.type}</span>
                       </div>
                       <p className="text-gray-600 text-sm duration-150 group-hover:text-gray-600">{item.desc}</p>
                     </div>
