@@ -99,8 +99,8 @@ export default function Example() {
     <div className="flex-1 max-w-lg py-0 sm:mx-auto sm:text-center lg:max-w-max lg:text-left">
       <h3 className="text-3xl text-white font-semibold md:text-4xl">
       Crafting Brilliance Through{' '}
-        <span className="text-transparent bg-clip-text bg-gradient-to-r to-cyan-500 via-blue-700 from-blue-900">Sleepless </span>
-         Endeavors
+        <span className="text-transparent bg-clip-text bg-gradient-to-r to-cyan-500 via-blue-700 from-blue-900">Sleepless  </span>
+          Endeavors
       </h3>
       <p className="text-gray-300 leading-relaxed mt-3">
       Fueled by frustration and personal necessity, I embraced a 24-hour hackathon with unwavering determination. Overcoming coding challenges, I unveiled an innovative ride-sharing app that revolutionized accessibility and affordability. This transformative journey solidified my belief in technology's power to solve real-world problems and ignited my passion for user-centric app development.

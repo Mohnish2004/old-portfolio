@@ -29,7 +29,7 @@ import Image from 'next/image';
         img: "/images/Project_Thumbnails/inside.png",
         date: "June 4 2022",
         href: "https://drive.google.com/file/d/1IjhYgylaQl5PIXfp1HapYMvdxos_wBkO/view?usp=sharing",
-        type: "Object Oriented Programming",
+        type: "Object Oriented CLI",
     },
 
       {
