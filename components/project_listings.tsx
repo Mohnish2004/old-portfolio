@@ -19,10 +19,18 @@ import Image from 'next/image';
           title: "Pool it",
           desc: "A mobile app developed using Flutter that allows UC Davis students to easily connect and rideshare with fellow students or family members traveling from the university. ",
           img: "/images/932shots_so.png",
-          date: "Jan 4 2022",
+          date: "May 4 2022",
           href: "https://devpost.com/software/pool-it-or74mp",
           type: "App Dev"
       },
+      {
+        title: "Inside Admissions",
+        desc: "A console-based dashboard for UC Davis tour guides, streamlining tour management and administrative tasks with efficient tour scheduling and tracking capabilities.",
+        img: "/images/Project_Thumbnails/inside.png",
+        date: "June 4 2022",
+        href: "https://drive.google.com/file/d/1IjhYgylaQl5PIXfp1HapYMvdxos_wBkO/view?usp=sharing",
+        type: "Object Oriented Programming",
+    },
 
       {
           title: "Enigma Coin",
@@ -35,7 +43,7 @@ import Image from 'next/image';
       },
       {
         title: "Enigma Vault",
-        desc: "Going into this journey, I had a standard therapy regimen, based on looking at the research literature. After I saw the movie, I started to ask other people.",
+        desc: "Enigma Vault is a secure local password manager that uses multiple encryption techniques to protect your login information. It features Caesar encryption, UTF-8 encoding, and Enigma encryption, with AES/DES/RSA coming soon. ",
         img: "/images/Project_Thumbnails/255shots_so.png",
         date: "Jan 4 2022",
         href: "https://github.com/Mohnish2004/EnigmaVault",
@@ -43,25 +51,24 @@ import Image from 'next/image';
         
     },
 
-    
       {
           title: "Slice",
-          desc: "The powerful gravity waves resulting from the impact of the planets' moons â€” four in total â€” were finally resolved in 2015 when gravitational.",
+          desc: "Slice is an expense manager web application built for me to manage my expenses and keep track of my spending. Slice the Bread that you earn and spend it wisely.",
           img: "/images/Project_Thumbnails/93.png",
           date: "Jan 4 2022",
           href: "https://github.com/Mohnish2004/Expense-Manager",
           type: "Web Dev"
       },
-
       {
         title: "Hustle",
-        desc: "Going into this journey, I had a standard therapy regimen, based on looking at the research literature. After I saw the movie, I started to ask other people.",
+        desc: "A user-friendly web app for efficient to-do list management, built with Python, Flask, and SQL. The hustle never stops as you add, update, and track tasks effortlessly to stay organized and achieve your goals.",
         img: "/images/Project_Thumbnails/851shots_so.png",
         date: "Jan 4 2022",
         href: "https://github.com/Mohnish2004/TasksApp",
         type: "Web Dev",
         
     },
+    
     {
       title: "FarmChain",
       desc: "An app that revolutionizes the food supply chain through blockchain technology, providing transparency, accountability, and AI-driven shelf life predictions to minimize food waste and ensure food safety.",
@@ -69,8 +76,9 @@ import Image from 'next/image';
       date: "Jan 4 2022",
       href: "https://drive.google.com/file/d/1i3A2WT4jaaVXop15XyYXnANS76ZYRWtd/view",
       type: "App Dev & AI",
-      
   },
+
+  
 
 
   ]
