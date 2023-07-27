@@ -6,6 +6,8 @@ import CircleText from '../components/CircleText';
 import Image from 'next/image';
 
 
+<meta property="twitter:image" content="/images/Contact/Projects3.png"></meta>
+
 
 export default function Hero() {
   useEffect(() => {

@@ -8,6 +8,7 @@ const centeredAlertStyles = {
   marginTop: '10px',
   marginRight: '370px'
 };
+<meta property="twitter:image" content="/images/Contact/Projects3.png"></meta>
 
 
 
