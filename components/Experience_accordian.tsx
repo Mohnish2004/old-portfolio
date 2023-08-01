@@ -4,6 +4,23 @@ import { useEffect } from 'react'
 import Image from 'next/image';
 
 const members = [
+
+  {
+    company_icon: <svg className="w-20 h-20" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" >
+    <mask id="circle-mask">
+      <circle cx="24" cy="24" r="24" fill="white" />
+    </mask>
+    <image href="/images/maxi.png" mask="url(#circle-mask)" width="50" height="48" />
+  </svg>
+  ,
+    company_name: "Esolutions Maximo ",
+    job_title: "Software Developer Intern",
+    job_description: "- IBM PLATINUM BUISNESS PARTNER",
+    job_type: "Internship",
+    location: "Dubai, United Arab Emirates",
+    duration: "July 2023 – Present",
+    path: "javascript:void(0)"
+}, 
   
     {
         company_icon: <svg className="w-24 h-24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" >

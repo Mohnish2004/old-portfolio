@@ -47,7 +47,8 @@ export default function Example() {
     </div>
     <div className="mt-1 flex items-center justify-center">
       <Image 
-        src="/images/megaa.png" width={700} height={700} 
+        src="/images/mes.png" width={900} height={900} 
+        loading="lazy"
         alt="" 
         className="mx-auto rounded-lg shadow-lg" 
         style={{ width: '120%', maxWidth: 'none'}}
@@ -77,6 +78,7 @@ export default function Example() {
                 </div>
                 <div className="flex-1 mt-5 mx-auto sm:w-9/12 lg:mt-0 lg:w-auto">
                     <Image 
+                    loading="lazy"
                         src="/images/Laptop1.png" width={500} height={500} 
                         alt="" 
                         className="mx-auto rounded-lg shadow-lg"
@@ -90,6 +92,7 @@ export default function Example() {
   <div className="relative z-10 gap-5 items-center lg:flex">
     <div className="flex-1 mt-5 mx-auto sm:w-9/12 lg:mt-0 lg:w-auto">
       <Image 
+      loading="lazy"
         src="/images/mobile.png" width={500} height={500} 
         alt="" 
         className="mx-auto rounded-lg shadow-lg" 
