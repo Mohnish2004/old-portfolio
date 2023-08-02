@@ -15,7 +15,7 @@ const members = [
   ,
     company_name: "Esolutions Maximo ",
     job_title: "Software Developer Intern",
-    job_description: "- IBM PLATINUM BUISNESS PARTNER",
+    job_description: "IBM PLATINUM BUISNESS PARTNER, Work in progress",
     job_type: "Internship",
     location: "Dubai, United Arab Emirates",
     duration: "July 2023 – Present",
@@ -153,7 +153,7 @@ export default function Hero() {
 
             <a href="https://www.linkedin.com/in/mohnish-gopi/" target="_blank" className="rounded-md bg-white px-4 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">
               Linkedin</a>
-            <a href="https://docs.google.com/document/d/e/2PACX-1vTx1dG5lHXLgkZOmtqWeIrbph_rc2qQ3Y1T_-d5sWrXNmuKF6kkIOQaUOr5Uww87w/pub" target="_blank" className="text-sm px-4 font-semibold leading-6 text-white">
+            <a href="https://docs.googlecom/document/d/e/2PACX-1vTx1dG5lHXLgkZOmtqWeIrbph_rc2qQ3Y1T_-d5sWrXNmuKF6kkIOQaUOr5Uww87w/pub" target="_blank" className="text-sm px-4 font-semibold leading-6 text-white">
               View Resume <span aria-hidden="true"></span>
             </a>
           </div>
