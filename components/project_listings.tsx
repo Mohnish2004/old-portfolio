@@ -10,7 +10,7 @@ import Image from 'next/image';
         title: "Profficient",
         desc: " A web-based platform dedicated to providing UC Davis students with a time-saving and effortless experience in viewing and reviewing professors. Profficient eliminates the need for sifting through outdated websites and forums.",
         img: "/images/49shots_so.png",
-        date: "Jan 4 2022",
+        date: "Jan 4 2023",
         href: "https://codelabdavis.medium.com/introduction-ddb70fec369a",
         type: "Web Dev"
 
@@ -19,7 +19,7 @@ import Image from 'next/image';
           title: "Pool it",
           desc: "A mobile app developed using Flutter that allows UC Davis students to easily connect and rideshare with fellow students or family members traveling from the university. ",
           img: "/images/932shots_so.png",
-          date: "May 4 2022",
+          date: "May 4 2023",
           href: "https://devpost.com/software/pool-it-or74mp",
           type: "App Dev"
       },
@@ -27,16 +27,25 @@ import Image from 'next/image';
         title: "Inside Admissions",
         desc: "A console-based dashboard for UC Davis tour guides, streamlining tour management and administrative tasks with efficient tour scheduling and tracking capabilities.",
         img: "/images/Project_Thumbnails/inside.png",
-        date: "June 4 2022",
+        date: "June 4 2023",
         href: "https://drive.google.com/file/d/1IjhYgylaQl5PIXfp1HapYMvdxos_wBkO/view?usp=sharing",
         type: "Object Oriented CLI",
     },
+
+    {
+      title: "Essence",
+      desc: "Essence is an innovative Sentiment Analysis platform meticulously crafted from scratch. Developed using Python, it dives into a world of NLP-powered exploration with Essence, where every word tells a story.",
+      img: "/images/Project_Thumbnails/174shots_so.png",
+      date: "Aug 1, 2023",
+      href: "https://github.com/Mohnish2004/Essence.git",
+      type: "Natural Language Processing"
+  },
 
       {
           title: "Enigma Coin",
           desc: " Enigma Coin is a blockchain-based cryptocurrency project developed from scratch using Python. So We created our own blockchain with RSA encryption and implemented functionalities like mining, transactions, purchase etc. ",
           img: "/images/313shots_so.png",
-          date: "Jan 4 2022",
+          date: "June 4 2023",
           href: "https://github.com/Mohnish2004/EnigmaCoin.git",
           type: "Cyber-Security"
 
@@ -45,25 +54,17 @@ import Image from 'next/image';
         title: "Enigma Vault",
         desc: "Enigma Vault is a secure local password manager that uses multiple encryption techniques to protect your login information. It features Caesar encryption, UTF-8 encoding, and Enigma encryption, with AES/DES/RSA coming soon. ",
         img: "/images/Project_Thumbnails/255shots_so.png",
-        date: "Jan 4 2022",
+        date: "Dec 10, 2022",
         href: "https://github.com/Mohnish2004/EnigmaVault",
         type: "Cyber-Security",
         
     },
 
       {
-          title: "Slice",
-          desc: "Slice is an expense manager web application built for me to manage my expenses and keep track of my spending. Slice the Bread that you earn and spend it wisely.",
-          img: "/images/Project_Thumbnails/93.png",
-          date: "Jan 4 2022",
-          href: "https://github.com/Mohnish2004/Expense-Manager",
-          type: "Web Dev"
-      },
-      {
         title: "Hustle",
         desc: "A user-friendly web app for efficient to-do list management, built with Python, Flask, and SQL. The hustle never stops as you add, update, and track tasks effortlessly to stay organized and achieve your goals.",
         img: "/images/Project_Thumbnails/851shots_so.png",
-        date: "Jan 4 2022",
+        date: "March 3, 2023",
         href: "https://github.com/Mohnish2004/TasksApp",
         type: "Web Dev",
         
@@ -73,10 +74,19 @@ import Image from 'next/image';
       title: "FarmChain",
       desc: "An app that revolutionizes the food supply chain through blockchain technology, providing transparency, accountability, and AI-driven shelf life predictions to minimize food waste and ensure food safety.",
       img: "/images/104.png",
-      date: "Jan 4 2022",
+      date: "Feb 4, 2023",
       href: "https://drive.google.com/file/d/1i3A2WT4jaaVXop15XyYXnANS76ZYRWtd/view",
       type: "App Dev & AI",
   },
+
+  {
+    title: "Slice",
+    desc: "Slice is an expense manager web application built for me to manage my expenses and keep track of my spending. Slice the Bread that you earn and spend it wisely.",
+    img: "/images/Project_Thumbnails/93.png",
+    date: "Feb 10, 2023",
+    href: "https://github.com/Mohnish2004/Expense-Manager",
+    type: "Web Dev"
+},
 
   
 
