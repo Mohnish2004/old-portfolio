@@ -18,7 +18,7 @@ export default function Hero() {
       {/* Background image */}
         <Image
         alt="Background Image"
-        src="/images/experience/experience_intro.png"
+        src="/images/experience/experience_intro.webp"
         layout="fill"
         objectFit="cover"
         objectPosition="center"

@@ -21,7 +21,7 @@ export default function Hero() {
 
         <Image
         alt="Background Image"
-        src="/images/Contact/Projects3.png"
+        src="/images/Contact/contact.webp"
         layout="fill"
         objectFit="cover"
         objectPosition="center"

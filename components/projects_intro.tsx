@@ -18,7 +18,7 @@ export default function Hero() {
       <CircleText />
       <Image
         alt="Background Image"
-        src="/images/Projects3.png"
+        src="/images/Projects3.webp"
         layout="fill"
         objectFit="cover"
         objectPosition="center"

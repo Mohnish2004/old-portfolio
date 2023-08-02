@@ -12,7 +12,7 @@ export default function Hero() {
         </div>
         <Image
         alt="Background Image"
-        src="/images/about_intro1.png"
+        src="/images/about_intro1.webp"
         layout="fill"
         objectFit="cover"
         objectPosition="center"
