@@ -34,7 +34,7 @@ export default () => {
           avatar: "/images/Testimonial/rajesh.jpeg",
           name: "Rajesh Balaraman",
           title: "Software Engineering Manager @ Google",
-          quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae."
+          quote: ""
       },
     {
         avatar: "/images/Testimonial/Edward.jpeg",
@@ -46,7 +46,7 @@ export default () => {
       avatar: "/images/Testimonial/1686936622402.jpeg",
       name: "Kamal Raydan",
       title: "Business Consultant @ eSolutions Maximo ",
-      quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae."
+      quote: ""
   },
 
       {
