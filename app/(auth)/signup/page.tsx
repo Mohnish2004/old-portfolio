@@ -1,4 +1,3 @@
-import { useState, useEffect } from 'react'
 
 export const metadata = {
   title: 'My Projects',

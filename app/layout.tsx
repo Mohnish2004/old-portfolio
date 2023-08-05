@@ -1,8 +1,6 @@
 import './css/style.css'
 
 import { Poppins } from 'next/font/google';
-import { useState, useEffect } from 'react'
-
 import Header from '@/components/ui/header'
 
 
