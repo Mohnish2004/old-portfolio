@@ -35,7 +35,7 @@ export default function Footer() {
                           <a href="https://discordapp.com/users/beep_boop_10" target="_blank" className="hover:underline">Discord</a>
                       </li>
                       <li className="mb-4">
-                          <a href="https://twitter.com/MohnishGopi" target="_blank" className="hover:underline">Twitter</a>
+                          <a href="https://twitter.com/MohnishGop" target="_blank" className="hover:underline">Twitter</a>
                       </li>
                   </ul>
               </div>
@@ -49,7 +49,7 @@ export default function Footer() {
                           <a href="https://www.linkedin.com/in/mohnish-gopi/" target="_blank" className="hover:underline">Linkedin</a>
                       </li>
                       <li className="mb-4">
-                          <a href="https://mohnish-portfolio.vercel.app/" target="_blank" className="hover:underline">Portfolio</a>
+                          <a href="https://mohnishgopi.vercel.app/" target="_blank" className="hover:underline">Portfolio</a>
                       </li>
                   </ul>
               </div>
