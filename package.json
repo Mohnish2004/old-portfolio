@@ -11,6 +11,8 @@
   "dependencies": {
     "@headlessui/react": "^1.7.15",
     "@heroicons/react": "^2.0.18",
+    "@splinetool/react-spline": "^2.2.6",
+    "@splinetool/runtime": "^0.9.411",
     "@types/node": "^20.2.5",
     "@types/react": "^18.2.7",
     "@types/react-dom": "^18.2.4",
