@@ -2,7 +2,8 @@
 
 import { useState, useRef, useEffect } from 'react';
 import Image from 'next/image';
-import BannerImage from '/public/images/Clients.png'; // Replace with the path to your banner image
+import BannerImage from '/public/images/Clients.png';
+import Spline from '@splinetool/react-spline'; // Replace with the path to your banner image
 
 export default function Stats() {
   const [tab, setTab] = useState<number>(1);
@@ -26,7 +27,7 @@ export default function Stats() {
           <Image src={BannerImage} alt="Banner Image" layout="responsive" />
         </div>
       </div>
-      
+      <Spline scene="https://prod.spline.design/YeA-MY8eEYt2RWxb/scene.splinecode" />
     </section>
   );
 }

@@ -20,7 +20,6 @@ export default function Stats() {
 
   return (
     <section className="relative pt-16 md:pt-4 mt-12 mb-20">
-      {/* Add space above the image */}
       <div className="max-w-800 mx-auto px-200 sm:px-0 mt-12 mb-30" data-aos="zoom-y-out">
         <div className="relative">
           <Image src={BannerImage} alt="Banner Image" layout="responsive" className="w-full" />

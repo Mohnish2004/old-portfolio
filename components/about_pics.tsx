@@ -2,11 +2,11 @@
 import React from 'react';
 import { useState, useEffect } from 'react'
 import Image from 'next/image';
+import Spline from '@splinetool/react-spline';
+
 export default function Hero() {
     return(
       <div className=" mx-auto px-5 py-2\3 lg:px-32 lg:py-2 ">
-
-
       <h1 className="text-gray-200 text-6xl font-semibold sm:text-6xl">
       <br></br>
       Through My Lens

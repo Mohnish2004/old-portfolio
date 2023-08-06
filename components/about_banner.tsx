@@ -22,11 +22,9 @@ export default function Stats() {
     heightFix();
   }, []);
 
-  
+
   
   return (
-
-
     
     <section className="relative pt-16 md:pt-4 mt-12 mb-20">
       <div className="max-w-800 mx-auto px-200 sm:px-0 mt-12 mb-30">

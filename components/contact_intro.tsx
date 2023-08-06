@@ -16,7 +16,6 @@ export default function Hero() {
 
   return (
     <section className="relative min-h-screen my-30">
-      {/* Background image */}
       <CircleText />
 
         <Image

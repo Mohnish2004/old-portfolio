@@ -3,6 +3,7 @@
 import { useState, useRef, useEffect } from 'react'
 import { Transition } from '@headlessui/react'
 import Image from 'next/image'
+
 import FeaturesBg from '@/public/images/features-bg.png'
 import FeaturesElement from '@/public/images/HomeFace.png'
 
@@ -33,7 +34,7 @@ If my wild rollercoaster story didn't pique your curiosity, I don't know what wi
         <div className="grid gap-4 sm:gap-6 lg:gap-8">
           <Image
             src="/images/pic1.png"
-            alt="Walnut card tray with white powder coated steel divider and 3 punchout holes."
+            alt=""
             className="w-90 rounded-lg" width={500} height={500}
           />
         </div>

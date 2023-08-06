@@ -1,4 +1,6 @@
 'use client'
+import Spline from '@splinetool/react-spline';
+
 import React, { useState } from 'react';
 import { useEffect } from 'react'
 import Image from 'next/image';
@@ -92,6 +94,7 @@ export default function Hero() {
     return(
       <section className="py-10">
         <div className=" mx-auto px-5 py-1 lg:px-32 lg:py-1 ">
+
   <div className="-m-1 flex flex-wrap md:-m-2">
     <div className="flex w-1/2 flex-wrap align-top">
       <div className="w-1/2 p-1 md:p-2">
@@ -150,7 +153,6 @@ export default function Hero() {
             <h1 className="text-white text-3xl font-extrabold sm:text-5xl">Technical experience</h1>
             <p className="text-gray-300 mt-2 ">Constantly looking for opportunities, and love to explore new territories. Follow my LinkedIn below to stay updated on my career :)</p>
             <br></br>
-
             <a href="https://www.linkedin.com/in/mohnish-gopi/" target="_blank" className="rounded-md bg-white px-4 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">
               Linkedin</a>
             <a href="https://docs.googlecom/document/d/e/2PACX-1vTx1dG5lHXLgkZOmtqWeIrbph_rc2qQ3Y1T_-d5sWrXNmuKF6kkIOQaUOr5Uww87w/pub" target="_blank" className="text-sm px-4 font-semibold leading-6 text-white">
