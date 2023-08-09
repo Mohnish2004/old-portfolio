@@ -46,7 +46,7 @@ export default () => {
       avatar: "/images/Testimonial/1686936622402.jpeg",
       name: "Kamal Raydan",
       title: "Business Consultant @ eSolutions Maximo ",
-      quote: ""
+      quote: "I had the pleasure of mentoring Mohnish for a duration of 1 week surrounding the world of EAMs and Interpersonal relationships that were required to succeed in this domain. Mohnish was almost immediately receptive of all the concepts in the EAM domain, oftentimes associating complex ideas with day-to-day scenarios and  grasping concepts faster than the normal rate. All in all, I would say that the mental faculties required to succeed in his domain of choice definitely shone during his time with me and I would be sure to say that he’d be a great fit wherever he decides to go."
   },
 
       {

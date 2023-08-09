@@ -27,7 +27,7 @@ export default function Stats() {
           <Image src={BannerImage} alt="Banner Image" layout="responsive" />
         </div>
       </div>
-      <Spline scene="https://prod.spline.design/YeA-MY8eEYt2RWxb/scene.splinecode" />
+      <Spline scene="https://prod.spline.design/YeA-MY8eEYt2RWxb/scene.splinecode"/>
     </section>
   );
 }
