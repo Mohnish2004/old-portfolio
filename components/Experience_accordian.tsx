@@ -17,7 +17,7 @@ const members = [
   ,
     company_name: "Esolutions Maximo ",
     job_title: "Software Developer Intern",
-    job_description: "IBM PLATINUM BUISNESS PARTNER, Work in progress",
+    job_description: "Collaborated with Dubai Opera By Emaar, a prestigious client to implement IBM Maximo Asset Management System, resulting in a 20% reduction in operational downtime through tailored solutions and configuration. Developed Java customizations, data migration solutions, and a comprehensive training manual, leading to a 25% increase in automation efficiency and a 35% faster onboarding process for new users. Played a key role in data analysis and integration, contributing to a 15% boost in data accuracy and overall information management efficiency. ",
     job_type: "Internship",
     location: "Dubai, United Arab Emirates",
     duration: "July 2023 – Present",

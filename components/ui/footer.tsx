@@ -14,12 +14,15 @@ export default function Footer() {
               <a href="https://flowbite.com/" className="flex items-center">
                 <Logo /></a>
                 <form onSubmit={(e) => e.preventDefault()}>
-  <label className="block pt-4 pb-2 text-white">Lets connect</label>
+  <label className="block pt-4 pb-2.5 text-white">Lets connect</label>
   <div className="max-w-sm flex border border-black rounded-md">
-    <a  href="https://calendar.google.com/calendar/appointments/AcZssZ3v3WNqru-XQpPB_dsgAkq7b91P6NPwmkp2nMc=?gv=true" target="_blank" className="p-2.5 rounded-md text-black bg-white outline-black shadow-md focus:shadow-none">
+    <a  href="https://calendar.google.com/calendar/appointments/AcZssZ3v3WNqru-XQpPB_dsgAkq7b91P6NPwmkp2nMc=?gv=true" target="_blank" className="p-3 rounded-md text-black bg-white outline-black shadow-md focus:shadow-none">
       Schedule a meeting 
     </a>
+
   </div>
+  <br></br>
+
 </form>
 
 
@@ -35,7 +38,7 @@ export default function Footer() {
                           <a href="https://discordapp.com/users/beep_boop_10" target="_blank" className="hover:underline">Discord</a>
                       </li>
                       <li className="mb-4">
-                          <a href="https://twitter.com/MohnishGop" target="_blank" className="hover:underline">Twitter</a>
+                          <a href="https://twitter.com/MohnishGopi" target="_blank" className="hover:underline">Twitter</a>
                       </li>
                   </ul>
               </div>
@@ -64,18 +67,22 @@ export default function Footer() {
                           <a href="mailto:mohnishgopi@gmail.com">mohnishgopi@gmail.com</a>
                       </li>
                       <li>
-                          <a>mgopi@ucdavis.edu</a>
+                          <a href="mailto:mgopi@ucdavis.edu">mgopi@ucdavis.edu</a>
                       </li>
                   </ul>
               </div>
           </div>
       </div>
       <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-4" />
-      <div className="text-sm text-gray-500 dark:text-gray-400">
-      <span className="block">All Rights Reserved ©</span>
-  <span className="block">Made with ❤️ by Mohnish Gopi™</span>
-  
-
+      <div className="text-sm text-gray-500 dark:text-gray-400 flex justify-between items-center">
+    <div>
+        <span className="block">All Rights Reserved ©</span>
+        <span className="block">Made with ❤️ by Mohnish Gopi™</span>
+    </div>
+    <a href="https://bmc.link/mohnishgopo" target="_blank" className="text-white shadow-md focus:shadow-none">
+        Buy me a coffee ☕
+    </a>
+    
 </div>
 
     </div>
