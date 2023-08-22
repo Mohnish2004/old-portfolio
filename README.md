@@ -1,5 +1,5 @@
 # Personal Portfolio
-![264shots_so](https://github.com/Mohnish2004/Mohnish-portfolio/assets/81405395/02a041dd-4329-4226-8912-09e4db8c1afb)
+![810shots_so](https://github.com/Mohnish2004/Mohnish-portfolio/assets/81405395/43f186de-c0f0-4844-901a-74b205342ec9)
 # Overview
 This portfolio website is a representation of my exploration in web development. It encompasses the following key aspects:
 - **Design:** The website's design is carefully crafted to provide a visually pleasing experience, with attention to details, color schemes, and responsive layouts.
