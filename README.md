@@ -1,5 +1,5 @@
 # Personal Portfolio
-![49shots_so](https://github.com/Mohnish2004/Mohnish-portfolio/assets/81405395/fc340dd4-b8dc-470c-915a-6e052043ccd8)
+![264shots_so](https://github.com/Mohnish2004/Mohnish-portfolio/assets/81405395/02a041dd-4329-4226-8912-09e4db8c1afb)
 
 # Overview
 This portfolio website is a representation of my exploration in web development. It encompasses the following key aspects:
@@ -31,6 +31,7 @@ I've documented my journey of building this portfolio website in a Medium articl
 - **Next.js:** A dynamic framework built on top of React that offers server-side rendering, boosting page loading speed and SEO.
 - **Tailwind CSS:** A utility-first CSS framework that speeds up styling by providing pre-built classes for common design elements.
 - **Vercel:** A platform for deploying and hosting web applications. The website is live and hosted on Vercel.
+- **Figma:** A collaborative design tool used for creating user interface designs, prototypes, and interactive mockups.
 
 
 
