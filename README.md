@@ -1,9 +1,7 @@
 # Personal Portfolio
 ![264shots_so](https://github.com/Mohnish2004/Mohnish-portfolio/assets/81405395/02a041dd-4329-4226-8912-09e4db8c1afb)
-
 # Overview
 This portfolio website is a representation of my exploration in web development. It encompasses the following key aspects:
-
 - **Design:** The website's design is carefully crafted to provide a visually pleasing experience, with attention to details, color schemes, and responsive layouts.
 - **Frameworks:** The project employs a combination of powerful frameworks, including React, Next.js, and Tailwind CSS, to enhance performance, modularity, and styling.
 - **Animations:** Interactive animations have been integrated into the website to engage users and add an extra layer of visual interest.
@@ -23,7 +21,7 @@ https://github.com/Mohnish2004/Mohnish-portfolio/assets/81405395/9a25d824-d4a0-4
 
 # Medium Article
 I've documented my journey of building this portfolio website in a Medium article. You can read it here.
-[![](https://github-readme-medium.vercel.app/?username=mohnish.gopi)](https://medium.com/@mohnish.gopi/how-i-crafted-my-portfolio-c792a6a859e7)
+https://medium.com/@mohnish.gopi/how-i-crafted-my-portfolio-c792a6a859e7
 
 
 # Technologies Used
