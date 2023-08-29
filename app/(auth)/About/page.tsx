@@ -10,9 +10,7 @@ import About_intro from '@/components/about_intro'
 import About_banner from '@/components/about_banner'
 import About_info from '@/components/about_info'
 import About_pics from '@/components/about_pics'
- /*
-  import About_bpics from '@/components/about_bpics'
-  import About_vids from '@/components/about_vids'*/
+import Modal from '@/components/modal'
 
 
   
@@ -22,6 +20,8 @@ import About_pics from '@/components/about_pics'
       <About_intro/>
       <About_banner/>
       <About_info/>
+      <Modal/>
+
       <div className=" mx-auto px-5 py-2\3 lg:px-32 lg:py-2 ">
 
 

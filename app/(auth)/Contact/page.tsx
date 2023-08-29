@@ -7,6 +7,8 @@ export const metadata = {
 import { Analytics } from '@vercel/analytics/react';
 import Contact_intro from '@/components/contact_intro'
 import Calendar from '@/components/calendar';
+import Modal from '@/components/modal'
+
 
 
 export default function Home() {
@@ -15,6 +17,8 @@ export default function Home() {
       <Contact_intro />
       <Calendar/>
       <Analytics />
+      <Modal/>
+
       <br></br>
     </>
   )

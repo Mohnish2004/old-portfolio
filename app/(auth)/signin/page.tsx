@@ -12,6 +12,7 @@ import Experience_banner_2 from '@/components/experience_banner2'
 import Experience_banner_3 from '@/components/experience_banner3'
 import Experience from '@/components/Experience'
 import Experience_accordian from '@/components/Experience_accordian'
+import Modal from '@/components/modal'
 
 
 export default function Home() {
@@ -25,6 +26,8 @@ export default function Home() {
       <Experience_banner_3 />
       <Testimonials />
       <Analytics />
+      <Modal/>
+
 
     </>
   )

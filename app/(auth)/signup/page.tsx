@@ -13,6 +13,8 @@ import Project_listings from '@/components/project_listings'
 import Project_banner_2 from '@/components/projects_banner2'
 import Project_banner_3 from '@/components/projects_banner3'
 import { Analytics } from '@vercel/analytics/react';
+import Modal from '@/components/modal'
+
 
 
 export default function Home() {
@@ -27,6 +29,9 @@ export default function Home() {
       <Project_banner_2 />
       <Testimonials/>
       <Analytics />
+      <Modal/>
+
+      
     </>
   )
 }
