@@ -50,7 +50,7 @@ export default function Header() {
                 <Link href="/Contact" className="font-extrabold text-gray-600 hover:text-white px-5 py-3 flex items-center transition duration-150 ease-in-out">Contact</Link>
               </li>
               <li>
-                <Link href="https://docs.googlecom/document/d/e/2PACX-1vTx1dG5lHXLgkZOmtqWeIrbph_rc2qQ3Y1T_-d5sWrXNmuKF6kkIOQaUOr5Uww87w/pub" target="_blank" className="btn-sm font-extrabold text-gray-200 bg-gray-900 hover:bg-gray-800 ml-3">
+                <Link href="/Mohnish_Gopi_resume.pdf" target="_blank" className="btn-sm font-extrabold text-gray-200 bg-gray-900 hover:bg-gray-800 ml-3">
                   <span>Resume</span>
                   <svg className="w-3 h-3 fill-current text-gray-400 shrink-0 ml-2 -mr-1" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                     <path d="M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z" fillRule="nonzero" />
