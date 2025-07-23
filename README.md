@@ -19,7 +19,6 @@ For a visual walkthrough of the features and functionalities of this portfolio w
 https://github.com/Mohnish2004/Mohnish-portfolio/assets/81405395/9a25d824-d4a0-4c4c-a247-ed6a9eeaa9d4
 
 
-# Medium Article
 I've documented my journey of building this portfolio website in a Medium article. You can read it here.
 https://medium.com/@mohnish.gopi/how-i-crafted-my-portfolio-c792a6a859e7
 
